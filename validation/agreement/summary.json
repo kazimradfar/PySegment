@@ -1,0 +1,57 @@
+{
+ "pysegment_commit": "4a562b2",
+ "python": "3.13.18",
+ "sitk": "2.5.8",
+ "pingouin": "0.7.0",
+ "medpy": "0.5.2",
+ "dice_exact_max_abs_diff": 0.0,
+ "jaccard_exact_max_abs_diff": 1.1102230246251565e-16,
+ "dice_vs_sitk_max_abs_diff": 1.1102230246251565e-16,
+ "jaccard_vs_sitk_max_abs_diff": 0.0,
+ "hd95_concentric_spheres": [
+  {
+   "case": "concentric spheres r 10 and 12 mm (0.5 mm voxels)",
+   "hd95_mm": 2.062,
+   "expected_mm": 2
+  },
+  {
+   "case": "concentric spheres r 10 and 14 mm (0.5 mm voxels)",
+   "hd95_mm": 4.062,
+   "expected_mm": 4
+  },
+  {
+   "case": "concentric spheres r 15 and 20 mm (0.5 mm voxels)",
+   "hd95_mm": 5.025,
+   "expected_mm": 5
+  }
+ ],
+ "hd95_vs_medpy_26_neighbours_max_abs_diff_mm": 0.0,
+ "hd95_vs_medpy_6_neighbours_median_abs_diff_mm": 0.5075053495456054,
+ "hd95_vs_medpy_6_neighbours_max_abs_diff_mm": 3.2931126752865723,
+ "icc_shrout_fleiss": {
+  "pysegment": [
+   0.2898,
+   0.0188,
+   0.7611
+  ],
+  "pingouin": [
+   0.2898,
+   0.02,
+   0.76
+  ],
+  "published_icc_2_1": 0.29
+ },
+ "icc_vs_pingouin_max_abs_diff": 9.992007221626409e-16,
+ "ci_low_vs_pingouin_max_abs_diff": 0.004989797360349671,
+ "ci_high_vs_pingouin_max_abs_diff": 0.004978601823769857,
+ "koo_li_categories": {
+  "0.49": "poor (<0.50)",
+  "0.5": "moderate (0.50\u20130.75)",
+  "0.749": "moderate (0.50\u20130.75)",
+  "0.75": "good (0.75\u20130.90)",
+  "0.9": "good (0.75\u20130.90)",
+  "0.901": "excellent (>0.90)"
+ },
+ "n_random_mask_pairs": 200,
+ "n_random_icc_sets": 500
+}

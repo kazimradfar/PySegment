@@ -1,0 +1,85 @@
+{
+ "pysegment_commit": "424304e",
+ "python": "3.13.18",
+ "numpy": "2.5.3",
+ "nuclear_data": {
+  "lu177_delta_e_mJ_per_MBq_h": 0.08531,
+  "eanm_delta_e_mJ_per_MBq_h": 0.0853,
+  "lu177_delta_difference_pct": 0.01
+ },
+ "half_life_max_abs_difference_pct": 0.792,
+ "energies_vs_icrp107_max_abs_difference_pct": 0.16,
+ "organ_svalues": [
+  {
+   "organ": "kidneys",
+   "mass_g": 422.0,
+   "S_IDAC_mGy_per_MBq_h": 0.204,
+   "S_PySegment_LED_mGy_per_MBq_h": 0.20215,
+   "difference_pct": -0.9
+  },
+  {
+   "organ": "liver",
+   "mass_g": 2360.0,
+   "S_IDAC_mGy_per_MBq_h": 0.0376,
+   "S_PySegment_LED_mGy_per_MBq_h": 0.03615,
+   "difference_pct": -3.9
+  },
+  {
+   "organ": "spleen",
+   "mass_g": 228.4,
+   "S_IDAC_mGy_per_MBq_h": 0.377,
+   "S_PySegment_LED_mGy_per_MBq_h": 0.3735,
+   "difference_pct": -0.9
+  },
+  {
+   "organ": "red marrow",
+   "mass_g": 1394.0,
+   "S_IDAC_mGy_per_MBq_h": 0.0349,
+   "S_PySegment_LED_mGy_per_MBq_h": 0.0612,
+   "difference_pct": 75.3
+  }
+ ],
+ "tia_noise_free_abs_bias_pct_by_method": {
+  "biexp": "0.0-20.2",
+  "monoexp": "0.0-5.0",
+  "trapezoid_effective": "0.2-14.3",
+  "trapezoid_physical": "3.6-24.0"
+ },
+ "formulas_and_units": {
+  "local_deposition_Gy": {
+   "pysegment": 0.042681985529760005,
+   "hand": 0.042681985529760005
+  },
+  "unit_factors": {
+   "mGy/(MBq*s)": 3.6,
+   "expected_1": 3.6,
+   "Gy/(Bq*s)": 3600000000.0,
+   "expected_2": 3600000000.0
+  },
+  "mird_organ_doses_Gy": {
+   "pysegment": {
+    "kidneys": 0.11,
+    "liver": 0.045,
+    "spleen": 0.0025
+   },
+   "hand": {
+    "kidneys": 0.11,
+    "liver": 0.045,
+    "spleen": 0.0025
+   },
+   "missing_source_reported": [
+    "tumour"
+   ]
+  },
+  "remainder_MBq_h": {
+   "pysegment": 193000.0,
+   "hand": 193000.0
+  },
+  "tissue_weights": {
+   "sum_ICRP103": 1.0,
+   "sum_ICRP60": 1.0,
+   "E_all_tissues_1Gy_ICRP103_Sv": 1.0
+  },
+  "all_pass": true
+ }
+}

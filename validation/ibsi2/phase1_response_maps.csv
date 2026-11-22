@@ -1,0 +1,9 @@
+configuration,filter,parameters,method,max_abs_diff,reference_max_abs,voxels_within_0.001_pct,all_within_0.001,scale_vs_reference
+2A,log,"{""sigma"": 3.0, ""boundary"": ""constant""}",pyradiomics,8.20298957824707,6.396395683288574,99.25041198730469,False,2.2742589514781235
+2A,log,"{""sigma"": 3.0, ""boundary"": ""constant""}",ibsi,0.00019788742065429688,6.396395683288574,100.0,True,1.0000308673281715
+2B,log,"{""sigma"": 5.0, ""boundary"": ""reflect""}",pyradiomics,137.00629043579102,25.71261215209961,0.0,False,6.306286893165675
+2B,log,"{""sigma"": 5.0, ""boundary"": ""reflect""}",ibsi,0.001819610595703125,25.71261215209961,77.75421142578125,False,1.0000708226982975
+5A1,wavelet,"{""wavelet"": ""db2"", ""band"": ""LHL""}",pyradiomics,3.5413907539805223e-06,149.26686096191406,100.0,True,0.9999999903856561
+5A1,wavelet,"{""wavelet"": ""db2"", ""band"": ""LHL""}",ibsi,3.5413907539805223e-06,149.26686096191406,100.0,True,0.9999999903856561
+6A1,wavelet,"{""wavelet"": ""coif1"", ""band"": ""HHL""}",pyradiomics,7.620925259743672e-06,221.9775390625,100.0,True,1.000000001451617
+6A1,wavelet,"{""wavelet"": ""coif1"", ""band"": ""HHL""}",ibsi,7.620925259743672e-06,221.9775390625,100.0,True,1.000000001451617

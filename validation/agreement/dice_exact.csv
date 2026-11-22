@@ -1,0 +1,7 @@
+case,dice,dice_exact,jaccard,jaccard_exact
+cubes shifted 0 voxels,1.0,1.0,1.0,1.0
+cubes shifted 4 voxels,0.8,0.8,0.666667,0.666667
+cubes shifted 8 voxels,0.6,0.6,0.428571,0.428571
+cubes shifted 12 voxels,0.4,0.4,0.25,0.25
+cubes shifted 16 voxels,0.2,0.2,0.111111,0.111111
+cubes shifted 20 voxels,0.0,0.0,0.0,0.0

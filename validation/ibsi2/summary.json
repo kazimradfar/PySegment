@@ -1,0 +1,41 @@
+{
+ "pyradiomics_version": "3.1.1.dev111+g8ed579383",
+ "phase1_all_within_0.001": {
+  "2A pyradiomics": false,
+  "2A ibsi": true,
+  "2B pyradiomics": false,
+  "2B ibsi": false,
+  "5A1 pyradiomics": true,
+  "5A1 ibsi": true,
+  "6A1 pyradiomics": true,
+  "6A1 ibsi": true
+ },
+ "phase2": {
+  "1.B ibsi": "15/15",
+  "1.B pyradiomics": "14/15",
+  "3.B ibsi": "15/15",
+  "3.B pyradiomics": "2/15"
+ },
+ "phase2_failed": {
+  "1.B ibsi": [],
+  "1.B pyradiomics": [
+   "stat_max"
+  ],
+  "3.B ibsi": [],
+  "3.B pyradiomics": [
+   "stat_p10",
+   "stat_p90",
+   "stat_energy",
+   "stat_iqr",
+   "stat_max",
+   "stat_mean",
+   "stat_mad",
+   "stat_median",
+   "stat_min",
+   "stat_range",
+   "stat_rmad",
+   "stat_rms",
+   "stat_var"
+  ]
+ }
+}

@@ -1,0 +1,4 @@
+case,hd95_mm,expected_mm
+concentric spheres r 10 and 12 mm (0.5 mm voxels),2.062,2
+concentric spheres r 10 and 14 mm (0.5 mm voxels),4.062,4
+concentric spheres r 15 and 20 mm (0.5 mm voxels),5.025,5

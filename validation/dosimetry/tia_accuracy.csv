@@ -1,0 +1,85 @@
+kinetics,schedule,method,noise_sd_pct,exact_MBq_h,bias_pct,sd_pct,rmse_pct,failed_fits,runs
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,0,5770.78,0.24,0.0,0.24,0,1
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,5,5770.78,0.26,2.28,2.29,0,2000
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,10,5770.78,0.51,4.7,4.73,0,2000
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,0,5770.78,16.5,0.0,16.5,0,1
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,5,5770.78,16.53,2.55,16.73,0,2000
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,10,5770.78,16.64,5.3,17.46,0,2000
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",monoexp,0,5770.78,-0.0,0.0,0.0,0,1
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",monoexp,5,5770.78,-0.09,2.22,2.22,0,2000
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",monoexp,10,5770.78,-0.26,4.58,4.59,0,2000
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",biexp,0,5770.78,0.0,0.0,0.0,0,1
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",biexp,5,5770.78,2.49,3.19,4.05,0,2000
+"mono-exponential, T_eff 40 h","5 points (4, 24, 48, 96, 168 h)",biexp,10,5770.78,4.9,6.32,7.99,0,2000
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",trapezoid_effective,0,5770.78,-12.65,0.0,12.65,0,1
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",trapezoid_effective,5,5770.78,-12.6,3.0,12.95,0,2000
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",trapezoid_effective,10,5770.78,-12.68,5.95,14.01,0,2000
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",trapezoid_physical,0,5770.78,3.61,0.0,3.61,0,1
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",trapezoid_physical,5,5770.78,3.62,3.27,4.88,0,2000
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",trapezoid_physical,10,5770.78,3.74,6.3,7.33,0,2000
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",monoexp,0,5770.78,-0.0,0.0,0.0,0,1
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",monoexp,5,5770.78,-0.02,3.45,3.45,0,2000
+"mono-exponential, T_eff 40 h","3 points (24, 96, 168 h)",monoexp,10,5770.78,0.15,6.89,6.89,0,2000
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,0,14426.95,-0.73,0.0,0.73,0,1
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,5,14426.95,0.04,5.95,5.95,0,2000
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,10,14426.95,1.99,11.25,11.42,0,2000
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,0,14426.95,17.85,0.0,17.85,0,1
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,5,14426.95,17.78,3.29,18.09,0,2000
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,10,14426.95,18.18,6.67,19.37,0,2000
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",monoexp,0,14426.95,0.0,0.0,0.0,0,1
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",monoexp,5,14426.95,0.19,3.69,3.69,0,2000
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",monoexp,10,14426.95,0.5,7.67,7.69,0,2000
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",biexp,0,14426.95,0.0,0.0,0.0,0,1
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",biexp,5,14426.95,4.4,5.31,6.9,0,2000
+"mono-exponential, T_eff 100 h","5 points (4, 24, 48, 96, 168 h)",biexp,10,14426.95,7.84,9.57,12.37,0,2000
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",trapezoid_effective,0,14426.95,-7.18,0.0,7.18,0,1
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",trapezoid_effective,5,14426.95,-6.37,5.97,8.73,0,2000
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",trapezoid_effective,10,14426.95,-4.9,10.94,11.99,0,2000
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",trapezoid_physical,0,14426.95,11.4,0.0,11.4,0,1
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",trapezoid_physical,5,14426.95,11.42,3.41,11.92,0,2000
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",trapezoid_physical,10,14426.95,11.46,7.0,13.43,0,2000
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",monoexp,0,14426.95,0.0,0.0,0.0,0,1
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",monoexp,5,14426.95,0.21,3.81,3.81,0,2000
+"mono-exponential, T_eff 100 h","3 points (24, 96, 168 h)",monoexp,10,14426.95,0.78,8.1,8.13,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,0,4674.33,0.35,0.0,0.35,0,1
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,5,4674.33,0.38,2.23,2.26,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,10,4674.33,0.68,4.53,4.58,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,0,4674.33,18.96,0.0,18.96,0,1
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,5,4674.33,18.95,2.68,19.14,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,10,4674.33,18.97,5.25,19.69,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",monoexp,0,4674.33,0.83,0.0,0.83,0,1
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",monoexp,5,4674.33,0.75,2.28,2.4,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",monoexp,10,4674.33,0.54,4.49,4.52,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",biexp,0,4674.33,0.0,0.0,0.0,0,1
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",biexp,5,4674.33,4.65,4.87,6.73,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","5 points (4, 24, 48, 96, 168 h)",biexp,10,4674.33,6.67,7.66,10.15,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",trapezoid_effective,0,4674.33,-14.27,0.0,14.27,0,1
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",trapezoid_effective,5,4674.33,-14.28,2.89,14.57,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",trapezoid_effective,10,4674.33,-13.96,5.52,15.02,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",trapezoid_physical,0,4674.33,4.33,0.0,4.33,0,1
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",trapezoid_physical,5,4674.33,4.32,3.09,5.32,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",trapezoid_physical,10,4674.33,4.36,6.25,7.62,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",monoexp,0,4674.33,-2.65,0.0,2.65,0,1
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",monoexp,5,4674.33,-2.77,3.16,4.2,0,2000
+"bi-exponential, 30 % T 3 h + 70 % T 45 h","3 points (24, 96, 168 h)",monoexp,10,4674.33,-2.87,6.41,7.03,0,2000
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,0,8223.36,-1.07,0.0,1.07,0,1
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,5,8223.36,-0.95,2.57,2.74,0,2000
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_effective,10,8223.36,-0.55,5.31,5.34,0,2000
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,0,8223.36,24.0,0.0,24.0,0,1
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,5,8223.36,23.93,3.12,24.14,0,2000
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",trapezoid_physical,10,8223.36,24.25,6.12,25.01,0,2000
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",monoexp,0,8223.36,-0.27,0.0,0.27,0,1
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",monoexp,5,8223.36,-0.26,2.67,2.69,0,2000
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",monoexp,10,8223.36,-0.3,5.32,5.33,0,2000
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",biexp,0,8223.36,20.19,0.0,20.19,0,1
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",biexp,5,8223.36,20.3,4.22,20.74,0,2000
+"uptake T 3 h, washout T 60 h","5 points (4, 24, 48, 96, 168 h)",biexp,10,8223.36,20.87,8.83,22.66,0,2000
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",trapezoid_effective,0,8223.36,-5.71,0.0,5.71,0,1
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",trapezoid_effective,5,8223.36,-5.51,3.05,6.3,0,2000
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",trapezoid_effective,10,8223.36,-5.21,6.18,8.08,0,2000
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",trapezoid_physical,0,8223.36,19.36,0.0,19.36,0,1
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",trapezoid_physical,5,8223.36,19.38,3.61,19.71,0,2000
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",trapezoid_physical,10,8223.36,19.39,7.01,20.62,0,2000
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",monoexp,0,8223.36,5.05,0.0,5.05,0,1
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",monoexp,5,8223.36,5.13,3.02,5.95,0,2000
+"uptake T 3 h, washout T 60 h","3 points (24, 96, 168 h)",monoexp,10,8223.36,4.87,6.2,7.89,0,2000

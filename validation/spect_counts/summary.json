@@ -1,0 +1,53 @@
+{
+ "pysegment_commit": "752a99c",
+ "python": "3.13.18",
+ "sitk": "2.5.8",
+ "counts_to_activity": {
+  "total_counts_true": 1030325.9563471618,
+  "total_counts_pysegment": 1030325.9563471619,
+  "activity_MBq_hand": 67.58678895726543,
+  "activity_MBq_pysegment": 67.58678895726544,
+  "relative_difference": 2.220446049250313e-16,
+  "decay_factor_24h_lu177": 1.109909404991844,
+  "decay_factor_hand": 1.109909404991844
+ },
+ "count_conservation": [
+  {
+   "case": "coarser grid, 6.4 mm voxels",
+   "total_change_pct": 0.0768935568064899
+  },
+  {
+   "case": "finer grid, 2.4 mm voxels",
+   "total_change_pct": -7.645512001275279e-08
+  },
+  {
+   "case": "affine, scale 0.9 (moving image smaller)",
+   "total_change_pct": -0.04309465372467347
+  },
+  {
+   "case": "affine, scale 1.1",
+   "total_change_pct": 0.09542160902558106
+  },
+  {
+   "case": "rigid, 8 deg rotation + 7 mm shift",
+   "total_change_pct": -0.0018926908297745015
+  }
+ ],
+ "decay_during_acquisition_not_corrected": [
+  {
+   "nuclide": "Lu-177",
+   "acquisition_min": 30,
+   "underestimate_pct": 0.11
+  },
+  {
+   "nuclide": "Tc-99m",
+   "acquisition_min": 20,
+   "underestimate_pct": 1.94
+  },
+  {
+   "nuclide": "I-131",
+   "acquisition_min": 30,
+   "underestimate_pct": 0.09
+  }
+ ]
+}

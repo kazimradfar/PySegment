@@ -1,0 +1,91 @@
+# Builds the desktop workstation PySegment (code in rsw/) for Windows, tests it with synthetic data only (unit tests, the
+# window driven like a user, the built program's self-test, install / start / uninstall) and publishes the
+# setup wizard as the GitHub release "pysegment-latest".
+name: build-rsw
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["rsw/**", "rsw.spec", "installer/rsw.iss", "requirements-desktop.txt", "tests/test_rsw_*.py",
+            ".github/workflows/build.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-rsw-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 90
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-desktop.txt pyinstaller pytest pillow
+          python -m pip install --no-deps "pyradiomics @ git+https://github.com/AIM-Harvard/pyradiomics.git"
+      - name: Unit and window tests (offscreen)
+        shell: pwsh
+        run: |
+          $env:QT_QPA_PLATFORM = "offscreen"
+          $env:RSW_SHOTS = "$env:GITHUB_WORKSPACE\rsw_shots"
+          python -m pytest tests/test_rsw_core.py tests/test_rsw_project.py tests/test_rsw_gui.py -q
+      - name: Build PySegment.exe
+        run: python -m PyInstaller --noconfirm --clean rsw.spec
+      - name: Self-test of the built program
+        shell: pwsh
+        run: |
+          $p = Start-Process dist\PySegment\PySegment.exe -ArgumentList "--self-test", "$env:GITHUB_WORKSPACE\rsw_shots\built_selftest.json" -Wait -PassThru
+          Get-Content rsw_shots\built_selftest.json
+          "{0:N0} MB" -f ((Get-ChildItem dist\PySegment -Recurse | Measure-Object Length -Sum).Sum / 1MB)
+          if ($p.ExitCode -ne 0) { Write-Error "self-test failed ($($p.ExitCode))"; exit 1 }
+      - name: Build setup wizard
+        shell: pwsh
+        run: |
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) { choco install innosetup -y --no-progress | Out-Null }
+          $v = python -c "import rsw; print(rsw.APP_VERSION)"
+          $n = python -c "import rsw; print(rsw.APP_NAME)"
+          & $iscc /Q "/DAppVersion=$v" "/DAppName=$n" installer\rsw.iss
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+          Get-ChildItem installer_out | Format-Table Name, Length
+      - name: Install silently, self-test the installed program, uninstall
+        shell: pwsh
+        run: |
+          $setup = (Get-ChildItem installer_out\*_Setup_v*.exe)[0].FullName
+          $p = Start-Process $setup -ArgumentList "/VERYSILENT","/SUPPRESSMSGBOXES","/NORESTART","/CURRENTUSER" -Wait -PassThru
+          if ($p.ExitCode -ne 0) { Write-Error "setup failed"; exit 1 }
+          $app = (Get-ChildItem "$env:LOCALAPPDATA\Programs" -Directory | Where-Object { Test-Path "$($_.FullName)\PySegment.exe" })[0].FullName
+          $t = Start-Process "$app\PySegment.exe" -ArgumentList "--self-test", "$env:GITHUB_WORKSPACE\rsw_shots\installed_selftest.json" -Wait -PassThru
+          Get-Content rsw_shots\installed_selftest.json
+          if ($t.ExitCode -ne 0) { Write-Error "installed program failed its self-test"; exit 1 }
+          $u = Start-Process "$app\unins000.exe" -ArgumentList "/VERYSILENT","/SUPPRESSMSGBOXES","/NORESTART" -Wait -PassThru
+          Start-Sleep 5
+          if (Test-Path "$app\PySegment.exe") { Write-Error "program still present after uninstall"; exit 1 }
+      - name: Screenshots into the log (small JPEG, base64)
+        if: always()
+        shell: pwsh
+        run: |
+          python -c "import glob, base64, io; from PIL import Image
+          for f in sorted(glob.glob('rsw_shots/*.png')):
+              im = Image.open(f).convert('RGB'); im.thumbnail((1400, 1400)); b = io.BytesIO(); im.save(b, 'JPEG', quality=70)
+              e = base64.b64encode(b.getvalue()).decode(); print('SHOT-BEGIN', f.replace(chr(92), '/'), im.size); [print('B64 ' + e[i:i + 3000]) for i in range(0, len(e), 3000)]; print('SHOT-END')"
+      - name: Publish release pysegment-latest
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete pysegment-latest --yes --cleanup-tag 2>$null
+          gh release delete rsw-latest --yes --cleanup-tag 2>$null   # old name of the same program
+          $setup = (Get-ChildItem installer_out\*_Setup_v*.exe)[0].FullName
+          $n = python -c "import rsw; print(rsw.APP_NAME)"
+          gh release create pysegment-latest $setup --target $env:GITHUB_SHA --prerelease --title "$n - latest build" --notes "Setup wizard for Windows 10/11 (64-bit, no administrator rights). Open source (MIT). Built from commit $env:GITHUB_SHA."

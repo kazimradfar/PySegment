@@ -1,0 +1,84 @@
+{
+ "pysegment_commit": "9c6c45e",
+ "python": "3.13.18",
+ "sitk": "2.5.8",
+ "itk": "5.4.8",
+ "patients": [
+  "bh",
+  "bl",
+  "dx",
+  "gt",
+  "mm2",
+  "ng"
+ ],
+ "by_split": {
+  "tuning": {
+   "none": {
+    "patients": 2,
+    "tre_mean_of_patient_means_mm": 6.88,
+    "tre_mean_range_mm": "6.68-7.09",
+    "tre_p95_max_mm": 16.83,
+    "tre_max_mm": 19.82,
+    "seconds_mean": 0.0
+   },
+   "elastix lung bspline": {
+    "patients": 2,
+    "tre_mean_of_patient_means_mm": 1.01,
+    "tre_mean_range_mm": "0.97-1.05",
+    "tre_p95_max_mm": 2.22,
+    "tre_max_mm": 6.79,
+    "seconds_mean": 135.0
+   },
+   "simpleitk rigid": {
+    "patients": 2,
+    "tre_mean_of_patient_means_mm": 6.56,
+    "tre_mean_range_mm": "6.11-7.00",
+    "tre_p95_max_mm": 16.75,
+    "tre_max_mm": 19.72,
+    "seconds_mean": 141.0
+   },
+   "simpleitk affine": {
+    "patients": 2,
+    "tre_mean_of_patient_means_mm": 6.37,
+    "tre_mean_range_mm": "6.11-6.63",
+    "tre_p95_max_mm": 15.97,
+    "tre_max_mm": 18.75,
+    "seconds_mean": 243.0
+   }
+  },
+  "test": {
+   "none": {
+    "patients": 4,
+    "tre_mean_of_patient_means_mm": 8.74,
+    "tre_mean_range_mm": "5.90-14.04",
+    "tre_p95_max_mm": 26.61,
+    "tre_max_mm": 32.37,
+    "seconds_mean": 0.0
+   },
+   "elastix lung bspline": {
+    "patients": 4,
+    "tre_mean_of_patient_means_mm": 1.25,
+    "tre_mean_range_mm": "0.87-1.81",
+    "tre_p95_max_mm": 4.19,
+    "tre_max_mm": 15.15,
+    "seconds_mean": 96.0
+   },
+   "simpleitk rigid": {
+    "patients": 4,
+    "tre_mean_of_patient_means_mm": 8.7,
+    "tre_mean_range_mm": "5.81-14.14",
+    "tre_p95_max_mm": 26.6,
+    "tre_max_mm": 32.35,
+    "seconds_mean": 122.0
+   },
+   "simpleitk affine": {
+    "patients": 4,
+    "tre_mean_of_patient_means_mm": 8.35,
+    "tre_mean_range_mm": "5.46-13.97",
+    "tre_p95_max_mm": 26.0,
+    "tre_max_mm": 31.59,
+    "seconds_mean": 222.0
+   }
+  }
+ }
+}

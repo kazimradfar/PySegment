@@ -1,0 +1,5 @@
+organ,mass_g,S_IDAC_mGy_per_MBq_h,S_PySegment_LED_mGy_per_MBq_h,difference_pct
+kidneys,422.0,0.204,0.20215,-0.9
+liver,2360.0,0.0376,0.03615,-3.9
+spleen,228.4,0.377,0.3735,-0.9
+red marrow,1394.0,0.0349,0.0612,75.3

@@ -1,0 +1,96 @@
+{
+ "pysegment_commit": "aa2b01b",
+ "python": "3.13.18",
+ "numpy": "2.5.3",
+ "dro_values_passing": "48/48",
+ "dro_failed": [],
+ "droe": {
+  "pet_unit": "SUV",
+  "pet_shape_zyx": [
+   68,
+   128,
+   128
+  ],
+  "ct_shape_zyx": [
+   136,
+   256,
+   256
+  ],
+  "pet_spacing_xyz": [
+   4.0,
+   4.0,
+   3.0
+  ],
+  "ct_spacing_xyz": [
+   2.0,
+   2.0,
+   1.5
+  ],
+  "suv_peak_1ml": [
+   {
+    "blob": "left",
+    "voxels_3d": 1337,
+    "max": 4.0013,
+    "sphere_voxels": 21,
+    "sphere_volume_ml": 1.008,
+    "sphere_at_hottest_voxel": 3.4488,
+    "suv_peak_pysegment": 3.4488,
+    "suv_peak_reference": 3.4488,
+    "difference": -0.0
+   },
+   {
+    "blob": "right",
+    "voxels_3d": 1337,
+    "max": 4.3011,
+    "sphere_voxels": 21,
+    "sphere_volume_ml": 1.008,
+    "sphere_at_hottest_voxel": 2.9862,
+    "suv_peak_pysegment": 3.4488,
+    "suv_peak_reference": 3.4488,
+    "difference": -0.0
+   }
+  ],
+  "fusion_ct_slice_64": {
+   "vertical stripes": {
+    "ct": 5,
+    "pet": 5,
+    "offset_mm": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "horizontal stripes": {
+    "ct": 5,
+    "pet": 5,
+    "offset_mm": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "dromtv_abs_error_pct_median_by_method": {
+  "noise-free | region grow 41 % of max": 15.1,
+  "noise-free | region grow 50 % of max": 7.8,
+  "noise-free | region grow SUV 2.5": 1.7,
+  "noise-free | region grow, half-way between background and level": 1.7,
+  "noisy, 6 mm FWHM | region grow 41 % of max": 28.2,
+  "noisy, 6 mm FWHM | region grow 50 % of max": 3.3,
+  "noisy, 6 mm FWHM | region grow SUV 2.5": 22.1,
+  "noisy, 6 mm FWHM | region grow, half-way between background and level": 15.1
+ },
+ "dromtv_not_measured": {
+  "noise-free | region grow 41 % of max | threshold below background: region leaks": 6,
+  "noise-free | region grow 50 % of max | threshold below background: region leaks": 6,
+  "noise-free | region grow SUV 2.5 | nothing above the threshold": 6,
+  "noisy, 6 mm FWHM | region grow 41 % of max | threshold below background: region leaks": 9,
+  "noisy, 6 mm FWHM | region grow 50 % of max | threshold below background: region leaks": 7,
+  "noisy, 6 mm FWHM | region grow SUV 2.5 | nothing above the threshold": 5
+ }
+}

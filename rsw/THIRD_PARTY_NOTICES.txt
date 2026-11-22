@@ -1,0 +1,21 @@
+Third-party components shipped with PySegment
+
+Qt for Python (PySide6) and Qt ........ GNU Lesser General Public License v3 (LGPLv3)
+                                         https://www.qt.io/licensing  - source: https://code.qt.io
+                                         The Qt / PySide6 libraries are separate files in the program
+                                         folder and may be replaced by the user.
+pyqtgraph ............................. MIT License
+NumPy ................................. BSD 3-Clause License
+SciPy ................................. BSD 3-Clause License
+pandas ................................ BSD 3-Clause License
+SimpleITK / ITK ....................... Apache License 2.0
+PyRadiomics ........................... BSD 3-Clause License
+PyWavelets ............................ MIT License
+pykwalify ............................. MIT License
+pydicom ............................... MIT License
+cryptography .......................... Apache License 2.0 / BSD 3-Clause License
+Python ................................ Python Software Foundation License
+PyInstaller bootloader ................ GPL v2 with a special exception that allows distribution of
+                                         the built program under any licence
+
+The full licence texts are available at the project pages of each component.

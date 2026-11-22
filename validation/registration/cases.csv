@@ -1,0 +1,364 @@
+patient,experiment,pair,mode,initial_tre_mean,initial_tre_median,initial_tre_p95,initial_tre_max,tre_mean,tre_median,tre_p95,tre_max,seconds,init,kept_start,warnings,folding_fraction,dice_vs_true,consistency_mean,consistency_median,consistency_p95,consistency_max,reference_distance_mean,reference_distance_median,reference_distance_p95,reference_distance_max,reference_distance_misaligned_mean,reference_distance_misaligned_median,reference_distance_misaligned_p95,reference_distance_misaligned_max
+STS_001,different modalities,MR->CT,rigid,17.5542,17.6077,23.991,26.237,,,,,231.9183,identity,False,Not converged | Large correction | Not converged | Large correction,,,68.1299,68.2557,75.3783,77.8069,40.9762,40.9793,42.9185,43.4871,34.8649,35.0089,40.0101,41.827
+STS_002,different modalities,MR->CT,rigid,11.8373,11.8038,13.9618,14.6665,,,,,68.6774,identity,False,Not converged | Not converged | Large correction,,,40.8236,40.884,43.8753,44.9284,3.9728,3.9434,4.767,5.091,40.0173,40.0467,42.552,43.307
+STS_003,different modalities,MR->CT,rigid,15.7447,15.7544,18.2258,19.2528,,,,,97.4079,identity,False,Not converged | Not converged | Large correction,,,96.6469,96.6774,98.9183,99.5603,7.1066,7.1256,7.9403,8.3194,90.254,90.262,93.1715,94.1715
+STS_004,different modalities,MR->CT,rigid,14.6738,14.6728,21.9153,26.8995,,,,,192.5982,identity,False,Not converged | Not converged | Large correction,,,14.7127,14.6354,19.9345,22.964,9.3092,9.3131,9.9763,10.339,10.8727,10.9152,16.2895,19.9264
+STS_005,different modalities,MR->CT,rigid,10.0606,9.7348,13.7182,15.9409,,,,,237.0181,identity,False,Not converged,,,5.8744,5.9204,7.5844,8.279,15.412,15.5342,17.8696,18.729,11.3786,11.4262,12.8497,13.4139
+STS_006,different modalities,MR->CT,rigid,16.0614,15.8912,22.7832,26.7258,,,,,160.1957,identity,True,Not converged | Not converged | The optimisation ended with a worse match than the start (-0.0632 vs -0.1910); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,18.6509,18.3981,25.0668,28.5786,17.8877,17.8968,18.6782,18.9437,16.0614,15.8912,22.7832,26.7258
+STS_007,different modalities,MR->CT,rigid,7.1175,6.7753,10.571,13.8856,,,,,498.4067,identity,False,Not converged | Not converged,,,1.9862,1.9508,3.1429,3.8687,5.0504,5.1105,5.8646,6.1859,4.8932,4.8987,6.1002,6.7285
+STS_008,different modalities,MR->CT,rigid,15.5155,15.551,17.3235,18.1815,,,,,28.1974,identity,False,Not converged,,,4.6905,4.5889,6.0659,6.7531,6.1823,6.1266,7.5021,7.9439,9.366,9.3153,11.0191,11.4588
+STS_009,different modalities,MR->CT,rigid,13.1295,12.8717,15.7534,18.0164,,,,,786.2127,identity,False,Not converged | Not converged,,,1.0106,0.9995,1.1598,1.2259,4.0777,4.0277,6.7193,7.8129,4.1772,4.1789,6.7976,7.6792
+STS_010,different modalities,MR->CT,rigid,15.7549,15.6972,20.5208,21.9538,,,,,164.3158,identity,False,Not converged,,,0.3925,0.3853,0.6727,0.7559,0.8855,0.858,1.2228,1.4167,1.1777,1.1522,1.5092,1.6588
+STS_011,different modalities,MR->CT,rigid,16.9862,17.3433,25.0473,27.5993,,,,,570.351,identity,False,Not converged | Not converged,,,8.5017,8.5565,10.0925,10.7604,16.3616,15.8738,24.4854,27.3205,13.0237,13.0642,21.9878,25.1446
+STS_012,different modalities,MR->CT,rigid,9.2008,9.0586,10.7121,11.507,,,,,123.3189,identity,True,Not converged | Not converged | The optimisation ended with a worse match than the start (-0.0517 vs -0.2323); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,11.8765,11.7714,13.5765,14.2663,6.2953,6.2968,7.4255,7.8443,9.2008,9.0586,10.7121,11.507
+STS_013,different modalities,MR->CT,rigid,18.1943,17.7463,28.1366,34.1392,,,,,787.1232,identity,False,Not converged | Not converged,,,4.6975,4.2678,9.273,12.0333,4.118,4.4052,6.8961,7.8067,6.8429,5.9502,14.0749,16.8142
+STS_014,different modalities,MR->CT,rigid,20.8325,20.7947,25.4934,27.0312,,,,,364.7609,identity,False,Not converged | Not converged | Large correction,,,3.5038,3.4789,5.5589,6.4331,3.4955,3.5106,4.4189,4.7582,5.5081,5.4769,7.5553,8.2886
+STS_015,different modalities,MR->CT,rigid,15.4113,15.6809,19.5532,20.6344,,,,,122.2009,identity,True,Not converged | Not converged | The optimisation ended with a worse match than the start (-0.0680 vs -0.2209); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,14.8078,15.0604,19.0883,20.3511,1.1027,1.0812,1.4546,1.5879,15.4113,15.6809,19.5532,20.6344
+STS_016,different modalities,MR->CT,rigid,13.5731,13.2075,17.393,19.1204,,,,,494.2783,identity,False,Not converged | Not converged,,,3.0375,2.9734,5.1377,6.1113,7.1659,7.1311,10.1367,11.0152,7.6893,7.5622,10.5983,12.1198
+STS_017,different modalities,MR->CT,rigid,17.2572,16.8072,25.0255,27.3367,,,,,468.4407,identity,False,Not converged | Not converged,,,0.5183,0.4823,0.8685,1.0546,4.9181,4.976,6.4235,6.9164,5.1928,5.2499,6.687,7.2115
+STS_018,different modalities,MR->CT,rigid,19.0252,19.1337,22.3785,23.8381,,,,,120.7237,identity,True,Not converged | Not converged | The optimisation ended with a worse match than the start (-0.0554 vs -0.1458); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,17.8462,17.8821,18.994,19.504,4.7838,4.6674,5.9137,6.4938,19.0252,19.1337,22.3785,23.8381
+STS_019,different modalities,MR->CT,rigid,14.1466,14.1341,14.6987,15.017,,,,,83.4545,identity,False,Large correction,,,0.5817,0.5908,0.8985,0.9976,16.9377,16.9363,17.1572,17.2294,17.1189,17.1168,17.3861,17.4689
+STS_020,different modalities,MR->CT,rigid,19.4672,19.1398,25.0176,27.5936,,,,,1231.8603,identity,False,Not converged | Not converged | Large correction,,,1.7762,1.7599,2.5791,2.9553,3.6534,3.5874,6.1749,7.0823,4.0607,4.033,6.4812,7.6016
+STS_021,different modalities,MR->CT,rigid,15.0606,14.9187,17.8228,19.096,,,,,585.1182,identity,True,Not converged | The optimisation ended with a worse match than the start (-0.1877 vs -0.2074); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option. | Not converged | The optimisation ended with a worse match than the start (-0.1289 vs -0.1468); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,15.0606,14.9187,17.8228,19.096,0.0,0.0,0.0,0.0,15.0606,14.9187,17.8228,19.096
+STS_022,different modalities,MR->CT,rigid,5.5187,5.0339,10.5531,12.85,,,,,351.7158,identity,False,Not converged | Not converged,,,16.7896,16.6921,22.886,25.7965,10.8146,10.9613,15.4023,16.8571,12.9025,12.8296,15.3677,16.1012
+STS_023,different modalities,MR->CT,rigid,16.6654,16.5151,19.8504,22.0007,,,,,259.4081,identity,False,Not converged | Not converged,,,4.4032,4.3999,4.7386,4.8794,4.7375,4.7478,5.4577,5.7681,3.1284,3.2156,3.9714,4.1914
+STS_024,different modalities,MR->CT,rigid,21.6318,21.5632,22.7574,23.4984,,,,,88.9552,identity,True,Not converged | The optimisation ended with a worse match than the start (-0.6466 vs -0.6631); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option. | Not converged | The optimisation ended with a worse match than the start (-0.1854 vs -0.2530); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,21.6318,21.5632,22.7574,23.4984,0.0,0.0,0.0,0.0,21.6318,21.5632,22.7574,23.4984
+STS_025,different modalities,MR->CT,rigid,13.8815,13.8792,15.8548,16.5512,,,,,64.1582,identity,True,Not converged | Large correction | Not converged | The optimisation ended with a worse match than the start (-0.0401 vs -0.2033); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,60.8711,60.8346,61.6162,61.9237,51.3036,51.2981,51.8504,52.1387,13.8815,13.8792,15.8548,16.5512
+STS_026,different modalities,MR->CT,rigid,15.755,15.4868,19.6861,21.4032,,,,,180.1819,identity,False,Not converged | Not converged,,,10.3243,10.0932,14.113,15.6992,5.1668,5.1653,6.4366,6.9218,14.2855,14.0392,18.3315,20.0426
+STS_027,different modalities,MR->CT,rigid,5.3459,5.1305,9.3158,11.7523,,,,,519.3551,identity,False,Not converged | Not converged,,,4.0959,4.0844,5.907,6.9221,1.1096,1.0304,2.0614,2.3785,4.1974,4.1804,5.9231,6.844
+STS_028,different modalities,MR->CT,rigid,16.9164,16.9807,20.4509,21.878,,,,,224.8223,identity,False,Not converged | Not converged | Large correction,,,9.9649,9.7775,14.4633,16.0683,4.7426,4.6662,6.0842,6.7035,9.4241,9.1435,13.1414,14.8026
+STS_029,different modalities,MR->CT,rigid,16.2399,16.1443,18.0094,19.2106,,,,,248.2932,identity,False,Not converged | Not converged | Large correction,,,6.1561,6.1478,10.1894,11.4651,12.4208,12.4601,14.4282,15.1027,12.7341,12.7318,16.0771,17.1144
+STS_030,different modalities,MR->CT,rigid,18.7733,18.6771,20.2307,20.9193,,,,,451.1119,identity,False,Not converged | Not converged | Large correction,,,1.1766,1.1453,1.6118,1.7956,3.1473,3.1043,4.7959,5.4389,3.1094,3.1119,4.0174,4.4486
+STS_031,different modalities,MR->CT,rigid,13.8415,13.6939,21.355,23.6674,,,,,319.145,identity,False,Not converged | Not converged,,,9.9187,9.9643,12.9073,13.947,4.5074,4.4704,7.5541,8.9851,10.8972,10.6847,13.8265,15.0748
+STS_032,different modalities,MR->CT,rigid,13.8928,13.9214,17.0557,18.1894,,,,,99.2728,identity,True,Not converged | Not converged | The optimisation ended with a worse match than the start (-0.1077 vs -0.1861); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,14.8752,14.9305,17.9788,18.9025,2.0897,2.0874,2.7639,3.0124,13.8928,13.9214,17.0557,18.1894
+STS_033,different modalities,MR->CT,rigid,22.1304,21.9259,24.4248,25.9209,,,,,247.3961,identity,True,Not converged | The optimisation ended with a worse match than the start (-0.3543 vs -0.3583); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option. | Not converged | Large correction,,,14.4995,14.1319,22.4296,26.3776,0.0,0.0,0.0,0.0,14.4995,14.1319,22.4296,26.3776
+STS_034,different modalities,MR->CT,rigid,22.7127,22.6016,27.8852,31.7233,,,,,235.3035,identity,True,Not converged | The optimisation ended with a worse match than the start (-0.5315 vs -0.5421); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option. | Not converged | Large correction,,,36.4878,36.7135,45.8977,50.9401,0.0,0.0,0.0,0.0,36.4878,36.7135,45.8977,50.9401
+STS_035,different modalities,MR->CT,rigid,14.6522,14.6088,16.7744,18.3735,,,,,96.5149,identity,True,Not converged | The optimisation ended with a worse match than the start (-0.7831 vs -0.7932); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option. | Not converged | The optimisation ended with a worse match than the start (-0.1702 vs -0.2218); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,14.6522,14.6088,16.7744,18.3735,0.0,0.0,0.0,0.0,14.6522,14.6088,16.7744,18.3735
+STS_036,different modalities,MR->CT,rigid,17.9353,17.849,22.8081,24.4705,,,,,268.9511,identity,False,Not converged | Not converged | Large correction,,,9.5731,9.6287,12.254,13.5826,6.0447,5.5098,10.625,15.3136,10.9511,11.025,13.0005,14.0921
+STS_037,different modalities,MR->CT,rigid,16.1065,16.183,19.0659,19.7947,,,,,456.0132,identity,False,Not converged | Not converged | Large correction,,,16.4069,16.4217,23.2307,25.6533,20.8963,20.9296,25.82,28.0828,33.3137,33.7981,41.6359,44.3345
+STS_038,different modalities,MR->CT,rigid,14.17,13.5802,20.2161,23.6788,,,,,175.518,identity,False,Not converged | Not converged,,,4.6964,4.6159,8.6705,11.3873,7.1354,7.1145,8.9602,9.8769,10.4052,10.4435,16.0423,19.713
+STS_039,different modalities,MR->CT,rigid,13.791,12.9031,24.7397,28.4591,,,,,311.8159,identity,False,Not converged | Large correction | Not converged | Large correction,,,2.8359,2.7056,5.4424,6.6562,28.7229,28.6899,30.384,31.4987,28.4293,28.3981,29.8467,30.6484
+STS_040,different modalities,MR->CT,rigid,15.9649,15.8956,21.1013,22.9625,,,,,267.4057,identity,True,Not converged | The optimisation ended with a worse match than the start (-0.1566 vs -0.4152); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option. | Not converged,,,15.1582,15.0368,18.9798,20.5837,0.0,0.0,0.0,0.0,15.1582,15.0368,18.9798,20.5837
+STS_041,different modalities,MR->CT,rigid,11.9655,11.863,14.4948,15.509,,,,,78.8686,identity,False,Not converged | Not converged | Large correction,,,99.4901,99.1113,116.5416,122.7733,8.9321,8.8201,11.8884,12.7561,102.5757,102.2404,115.962,120.9137
+STS_042,different modalities,MR->CT,rigid,19.1081,19.1063,20.9114,21.6146,,,,,59.6803,identity,False,Not converged | Not converged | Large correction,,,11.1111,11.1105,12.2898,12.6813,1.0275,1.0157,1.4184,1.5552,11.2261,11.2195,12.5469,12.999
+STS_043,different modalities,MR->CT,rigid,11.7611,11.8113,13.4395,14.0688,,,,,145.9838,identity,False,Not converged | Not converged,,,3.0874,2.9655,5.1417,5.9713,2.4167,2.4041,2.726,2.8282,2.5573,2.5296,4.0553,4.8453
+STS_044,different modalities,MR->CT,rigid,7.1053,6.8785,13.4003,16.4469,,,,,291.3722,identity,False,Not converged | Not converged,,,4.7664,4.5709,6.4333,8.1976,10.58,10.5875,14.3092,16.7715,8.7773,8.5367,14.7167,17.4754
+STS_045,different modalities,MR->CT,rigid,16.899,16.2695,24.1064,28.9079,,,,,343.5296,identity,False,Not converged | Not converged,,,17.3725,17.1148,21.4446,24.6191,6.8775,6.9511,7.8971,8.7172,22.0761,21.9599,25.578,28.8984
+STS_046,different modalities,MR->CT,rigid,19.3485,19.461,28.2365,32.6984,,,,,321.3434,identity,False,Not converged | Not converged | Large correction,,,25.206,24.3498,36.3048,40.9022,4.4482,4.3743,5.2796,5.9692,24.2928,23.5016,36.6939,42.0261
+STS_047,different modalities,MR->CT,rigid,17.6592,17.6022,18.7472,19.3006,,,,,135.6865,identity,False,Not converged | Not converged,,,3.5171,3.5268,5.8116,7.1315,1.4177,1.4011,2.0327,2.2556,3.2792,3.1945,5.7479,7.0756
+STS_048,different modalities,MR->CT,rigid,12.3675,12.4735,15.2888,16.5637,,,,,78.6605,identity,False,,,,1.7575,1.7546,1.8851,1.9249,1.2031,1.2056,1.8843,2.0879,1.9427,1.9393,2.283,2.4414
+STS_049,different modalities,MR->CT,rigid,16.6279,16.2006,20.4066,21.8141,,,,,290.7355,identity,False,Not converged,,,4.2935,4.2195,5.5578,6.3069,7.1192,6.9163,9.3133,11.2456,5.4716,5.3462,8.8683,10.3773
+STS_050,different modalities,MR->CT,rigid,9.6366,9.4555,11.5502,12.6211,,,,,131.6311,identity,False,Not converged | Not converged,,,7.9457,7.5069,11.6726,13.17,9.3383,9.3337,9.6999,9.8096,9.7018,9.718,14.7677,16.2896
+STS_051,different modalities,MR->CT,rigid,19.7237,19.6706,22.7281,23.9945,,,,,70.0364,identity,False,Not converged | Not converged,,,2.297,2.2405,3.9373,4.6872,1.092,1.0648,1.6399,1.8508,1.9068,1.8503,3.4942,4.1492
+STS_001,different modalities,PET->CT,rigid,4.6368,4.5676,6.7072,7.4752,,,,,239.9196,identity,False,Not converged | Not converged,,,1.4134,1.4233,1.7883,1.901,3.1637,3.1421,3.9201,4.3126,4.3299,4.3194,5.0065,5.2757
+STS_002,different modalities,PET->CT,rigid,16.1039,16.0903,18.1662,18.841,,,,,90.0946,identity,False,Not converged | Not converged | Large correction,,,3.599,3.6089,4.1362,4.2978,8.5267,8.5382,9.7723,10.3372,10.6094,10.6349,11.9685,12.5352
+STS_003,different modalities,PET->CT,rigid,20.3085,20.3128,23.4117,24.8398,,,,,105.7417,identity,False,Not converged | Not converged,,,2.0991,2.0008,2.9893,3.3643,7.5568,7.5565,8.0863,8.2533,6.545,6.5685,7.4127,7.7607
+STS_004,different modalities,PET->CT,rigid,9.9019,9.8397,15.7709,20.3924,,,,,283.5796,identity,False,Not converged,,,1.3965,1.3809,1.7546,1.9924,7.2812,7.2843,8.747,9.4539,7.2038,7.2121,8.4001,8.9611
+STS_005,different modalities,PET->CT,rigid,16.0448,15.8445,25.1973,28.9781,,,,,161.4967,identity,False,,,,0.4287,0.407,0.6864,0.8678,4.8084,4.7713,6.4439,7.0244,4.6183,4.5857,5.8644,6.2496
+STS_006,different modalities,PET->CT,rigid,17.9512,17.8865,20.2534,21.036,,,,,193.604,identity,False,Not converged | Not converged | Large correction,,,8.2083,8.1965,8.801,8.9945,10.3766,10.3516,11.6836,12.0997,8.0075,7.9638,9.3891,9.9621
+STS_007,different modalities,PET->CT,rigid,19.1925,18.6899,32.8953,36.2822,,,,,438.4767,identity,False,Not converged | Not converged | Large correction,,,1.2861,1.283,1.4182,1.4791,8.0759,8.1829,10.0754,10.9175,8.2988,8.4324,10.4826,11.5075
+STS_008,different modalities,PET->CT,rigid,11.8076,11.7587,13.4093,14.2205,,,,,60.458,identity,False,,,,2.126,2.1325,2.4801,2.6251,3.9963,4.0065,4.6203,4.8485,4.2458,4.2615,4.6836,4.7999
+STS_009,different modalities,PET->CT,rigid,12.1448,11.7603,17.2674,20.058,,,,,739.75,identity,False,Not converged | Large correction | Not converged | Large correction,,,23.0386,22.8914,30.1709,32.7422,41.5646,41.4446,48.1928,49.9658,62.2988,62.073,75.2123,78.6153
+STS_010,different modalities,PET->CT,rigid,15.9382,15.7306,21.701,23.9173,,,,,170.2743,identity,False,Not converged | Not converged,,,3.2594,3.2543,3.4411,3.5099,5.3065,5.2981,6.4141,6.8176,3.516,3.52,4.6606,5.0586
+STS_011,different modalities,PET->CT,rigid,18.1124,18.0977,21.4766,22.5859,,,,,570.5183,identity,True,Not converged | The optimisation ended with a worse match than the start (-0.2183 vs -0.2195); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option. | Not converged | Large correction,,,24.3307,24.2989,27.8987,29.0482,0.0,0.0,0.0,0.0,24.3307,24.2989,27.8987,29.0482
+STS_012,different modalities,PET->CT,rigid,19.5469,19.5308,23.9498,25.57,,,,,195.6511,identity,False,Not converged | Not converged | Large correction,,,4.8218,4.8141,5.4277,5.6629,6.9999,7.0519,9.4297,10.2212,6.5624,6.6082,9.343,10.4805
+STS_013,different modalities,PET->CT,rigid,17.5974,18.2786,27.4214,31.9145,,,,,544.7103,identity,False,,,,2.7483,2.7882,3.0132,3.0853,6.7015,6.6697,7.3369,7.6308,4.3214,4.2918,5.1191,5.4743
+STS_014,different modalities,PET->CT,rigid,10.5386,10.3412,14.748,16.6223,,,,,329.4049,identity,False,Not converged | Not converged,,,3.0133,3.0192,3.8801,4.1165,7.2027,7.1408,8.2026,8.6379,8.5042,8.4446,9.2957,9.817
+STS_015,different modalities,PET->CT,rigid,15.8675,15.6702,20.4315,22.3818,,,,,199.8975,identity,False,Not converged | Not converged | Large correction,,,3.4201,3.3968,3.9132,4.1265,8.6184,8.59,9.3237,9.6639,9.5809,9.5486,11.1205,11.6063
+STS_016,different modalities,PET->CT,rigid,13.3056,13.4002,20.9174,25.0346,,,,,488.3697,identity,False,Not converged | Not converged,,,1.7903,1.8002,1.9866,2.0576,4.4913,4.4119,5.3412,5.7091,4.2253,4.2173,5.1985,5.6331
+STS_017,different modalities,PET->CT,rigid,14.4739,14.5184,19.3931,21.8651,,,,,596.6979,identity,False,Not converged | Not converged,,,1.3863,1.3852,1.5679,1.6458,5.9269,5.8497,6.9943,7.4855,4.9857,4.9048,6.1691,6.7332
+STS_018,different modalities,PET->CT,rigid,12.6254,12.7783,15.5045,16.8138,,,,,211.4617,identity,False,Not converged | Not converged,,,1.3398,1.338,1.3967,1.4218,5.1922,5.1915,5.2285,5.2453,5.8761,5.8735,5.9314,5.9553
+STS_019,different modalities,PET->CT,rigid,2.9344,2.9069,3.5804,4.0064,,,,,60.4221,identity,False,,,,1.0359,1.0517,1.4091,1.518,10.0202,10.0137,10.491,10.6296,9.7716,9.7729,10.2802,10.4813
+STS_020,different modalities,PET->CT,rigid,21.9484,20.8815,31.0254,36.4925,,,,,1203.4482,identity,True,Not converged | The optimisation ended with a worse match than the start (-0.0883 vs -0.0894); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option. | Not converged | Large correction,,,7.9653,7.966,12.6607,15.5611,0.0,0.0,0.0,0.0,7.9653,7.966,12.6607,15.5611
+STS_021,different modalities,PET->CT,rigid,17.6083,17.1386,22.1631,23.9177,,,,,572.3507,identity,False,Not converged | Not converged,,,1.8342,1.8047,2.5005,2.7831,5.1117,5.1282,5.8522,6.0858,4.9904,4.9697,5.9393,6.3335
+STS_022,different modalities,PET->CT,rigid,15.6055,15.7851,24.7473,28.286,,,,,408.4225,identity,False,Not converged | Large correction,,,2.2489,2.2831,3.5697,4.7358,5.8836,6.044,7.5254,7.9974,6.4972,6.4305,8.0365,8.9379
+STS_023,different modalities,PET->CT,rigid,11.419,11.2792,15.2341,19.8324,,,,,293.8401,identity,False,Not converged | Not converged,,,1.7799,1.7835,2.1088,2.2125,8.1051,8.516,11.6439,13.0239,8.5721,8.9495,12.1147,13.3386
+STS_024,different modalities,PET->CT,rigid,20.7754,20.6967,25.0607,27.0649,,,,,128.6751,identity,False,Not converged | Large correction,,,4.5262,4.5714,6.2885,7.4165,10.773,10.7356,12.3913,12.9523,12.3444,12.3466,14.2681,14.9744
+STS_025,different modalities,PET->CT,rigid,15.1728,15.1451,18.0284,19.0434,,,,,121.6924,identity,False,Not converged | Not converged | Large correction,,,64.8033,64.7766,66.5975,67.5038,7.3995,7.4029,7.6279,7.7162,69.8237,69.806,71.546,72.3924
+STS_026,different modalities,PET->CT,rigid,9.5152,9.5355,11.8239,12.5705,,,,,203.8327,identity,False,Large correction | Not converged,,,216.8777,216.8833,221.4305,223.1302,219.9263,219.8815,225.5095,227.4846,8.6404,8.5491,10.4927,11.1529
+STS_027,different modalities,PET->CT,rigid,20.3096,19.8901,23.8408,26.7345,,,,,575.7322,identity,False,Not converged | Not converged | Large correction,,,3.5938,3.5551,4.876,5.5869,7.4509,7.4382,8.686,9.1536,8.46,8.4553,8.8771,8.9968
+STS_028,different modalities,PET->CT,rigid,20.1383,20.1683,23.6017,24.6322,,,,,282.8439,identity,False,Not converged | Not converged,,,1.0268,1.0324,1.5196,1.6781,4.1654,4.0937,5.8689,6.6319,4.5935,4.5904,6.9124,7.7717
+STS_029,different modalities,PET->CT,rigid,14.0772,14.2396,18.2244,19.4586,,,,,249.4292,identity,False,Not converged | Not converged,,,2.3677,2.2547,3.5218,3.9549,10.3445,10.3683,15.037,16.6809,11.0164,11.0595,16.5651,18.2682
+STS_030,different modalities,PET->CT,rigid,14.073,14.0958,18.9251,20.8416,,,,,293.2684,identity,False,Not converged,,,3.4162,3.4254,3.5687,3.6281,4.6879,4.7217,5.3533,5.6051,6.3708,6.3933,6.8548,7.0565
+STS_031,different modalities,PET->CT,rigid,15.0024,15.0274,17.8326,18.941,,,,,190.5022,identity,False,Not converged | Large correction,,,2.1721,2.1927,2.744,2.9634,6.6962,6.7104,7.9827,8.4912,7.4306,7.4728,8.8654,9.3643
+STS_032,different modalities,PET->CT,rigid,19.9515,19.9404,22.4944,23.588,,,,,92.028,identity,False,Not converged,,,2.4913,2.4939,2.78,2.8709,5.8303,5.8383,6.3438,6.5218,3.3943,3.3969,3.618,3.7061
+STS_033,different modalities,PET->CT,rigid,15.2186,15.1892,20.0,22.1989,,,,,250.8478,identity,False,Not converged | Not converged,,,1.1343,1.1304,1.5983,1.7861,5.4818,5.4697,5.9343,6.1822,5.8,5.7768,6.3077,6.5044
+STS_034,different modalities,PET->CT,rigid,14.3547,14.2475,21.9238,25.8075,,,,,252.2545,identity,False,Not converged | Not converged | Large correction,,,54.2805,54.6284,57.9276,59.003,9.512,9.3761,11.7345,12.8751,61.964,62.1863,67.0298,68.9507
+STS_035,different modalities,PET->CT,rigid,14.2011,13.8782,18.2968,19.7538,,,,,131.2165,identity,False,Not converged | Not converged | Large correction,,,14.1817,14.3622,16.1128,16.993,7.762,7.7572,8.5102,8.7473,18.8144,19.0083,21.6006,22.9207
+STS_036,different modalities,PET->CT,rigid,12.8346,12.4093,18.4473,21.3784,,,,,255.8957,identity,False,Not converged | Not converged,,,1.574,1.557,2.3238,2.5795,3.5984,3.6116,4.44,4.9748,3.144,3.141,3.497,3.6213
+STS_037,different modalities,PET->CT,rigid,18.0173,17.7944,26.2662,29.0258,,,,,420.3113,identity,False,Not converged | Not converged,,,0.7122,0.7367,1.1314,1.2597,5.9587,5.9594,9.0837,10.1098,6.3413,6.3675,9.9664,11.1377
+STS_038,different modalities,PET->CT,rigid,5.0054,4.965,8.7276,10.8375,,,,,213.8354,identity,False,Not converged | Not converged,,,1.6853,1.6905,2.2104,2.409,4.2454,4.2907,5.6243,6.219,5.534,5.5569,6.4819,6.8574
+STS_039,different modalities,PET->CT,rigid,19.5056,19.2977,29.867,33.0158,,,,,343.8424,identity,False,Not converged | Not converged,,,10.9523,10.9678,11.6757,12.0867,15.9581,15.9535,16.5226,16.8245,5.5838,5.5388,6.3941,6.7324
+STS_040,different modalities,PET->CT,rigid,15.8169,15.8102,21.3831,23.7968,,,,,282.3131,identity,False,Not converged | Not converged | Large correction,,,1.7631,1.7715,2.3197,2.5931,5.6802,5.7032,6.9188,7.3551,6.7272,6.7386,8.2954,8.8021
+STS_041,different modalities,PET->CT,rigid,14.3355,14.2615,16.7947,18.2976,,,,,127.7936,identity,False,Not converged | Not converged,,,1.9419,1.909,2.4332,2.6116,5.6504,5.6188,6.5179,6.8422,5.5994,5.6073,6.2842,6.5303
+STS_042,different modalities,PET->CT,rigid,14.9421,14.9992,16.3165,16.9486,,,,,95.6417,identity,False,Not converged | Not converged | Large correction,,,5.4194,5.4192,5.6731,5.7673,4.3365,4.3282,4.5825,4.7034,8.8204,8.8192,8.862,8.88
+STS_043,different modalities,PET->CT,rigid,14.0629,14.0473,16.6477,17.9232,,,,,205.5721,identity,False,Not converged | Not converged,,,4.3587,4.3456,4.5688,4.6591,5.2031,5.1876,5.665,5.8437,2.3649,2.3648,2.7066,2.8347
+STS_044,different modalities,PET->CT,rigid,12.7092,12.3894,19.6444,23.6688,,,,,290.337,identity,False,Not converged | Not converged,,,2.3818,2.3646,3.1767,3.5309,4.136,4.1085,5.6797,6.2173,3.6249,3.4573,5.5694,6.116
+STS_045,different modalities,PET->CT,rigid,18.6312,18.3939,30.9237,39.1683,,,,,410.5323,identity,False,Not converged | Not converged | Large correction,,,10.4365,10.4064,11.2588,11.8389,15.8365,15.8408,16.5075,16.9146,5.5069,5.5205,5.7973,5.967
+STS_046,different modalities,PET->CT,rigid,16.6689,15.8321,21.9767,25.084,,,,,447.1146,identity,False,Not converged | Not converged,,,0.5672,0.5786,0.6625,0.7031,3.2089,3.1816,4.2726,4.6108,2.9924,3.0224,4.2317,4.5056
+STS_047,different modalities,PET->CT,rigid,18.0919,17.8577,21.582,23.7904,,,,,196.0712,identity,False,Not converged | Not converged,,,1.0497,1.0488,1.462,1.6105,1.8343,1.8419,2.0617,2.1987,2.2753,2.2671,2.6421,2.8015
+STS_048,different modalities,PET->CT,rigid,15.3048,15.1825,20.014,21.6766,,,,,69.8957,identity,True,The optimisation ended with a worse match than the start (-0.1908 vs -0.1918); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.,,,1.8955,1.8873,2.4676,2.6807,0.0,0.0,0.0,0.0,1.8955,1.8873,2.4676,2.6807
+STS_049,different modalities,PET->CT,rigid,15.7628,15.7951,23.6921,28.2073,,,,,66.6455,identity,False,,,,0.1239,0.1203,0.2002,0.2319,1.5741,1.582,1.8455,2.0045,1.6681,1.6727,1.9527,2.1095
+STS_050,different modalities,PET->CT,rigid,13.0051,12.9482,15.6332,16.7004,,,,,120.4081,identity,False,Not converged | Not converged,,,3.4501,3.4435,3.9172,4.1034,9.124,9.0776,10.2135,10.5564,6.3539,6.3061,7.3111,7.7014
+STS_051,different modalities,PET->CT,rigid,15.5911,15.4973,17.0152,17.8721,,,,,116.0078,identity,False,Not converged | Not converged | Large correction,,,1.7984,1.7997,1.9576,2.0144,8.4201,8.4222,8.5713,8.6246,10.1808,10.1789,10.4553,10.5776
+STS_001,known transform,CT->CT,affine,5.4254,5.5621,7.3812,8.517,0.4108,0.378,0.7879,0.9435,477.5926,identity,False,Not converged,,0.9874,,,,,,,,,,,,
+STS_002,known transform,CT->CT,affine,18.8399,18.8635,20.5946,21.1477,0.1462,0.1283,0.3041,0.3944,198.5184,identity,False,Not converged,,0.9933,,,,,,,,,,,,
+STS_003,known transform,CT->CT,affine,14.013,13.9575,16.2016,16.9636,0.1849,0.1741,0.2918,0.3666,212.8516,identity,False,Not converged,,0.9868,,,,,,,,,,,,
+STS_004,known transform,CT->CT,affine,7.344,7.1277,11.4785,18.0144,0.2087,0.194,0.3894,0.4684,463.838,identity,False,,,0.9942,,,,,,,,,,,,
+STS_005,known transform,CT->CT,affine,19.2428,19.1877,23.4053,27.3919,0.0485,0.0477,0.0857,0.1044,467.403,identity,False,,,0.9989,,,,,,,,,,,,
+STS_006,known transform,CT->CT,affine,18.6301,18.5737,20.7731,21.7944,0.3086,0.2723,0.6931,0.9639,417.6818,identity,False,Not converged,,0.9949,,,,,,,,,,,,
+STS_007,known transform,CT->CT,affine,19.2724,19.3001,25.4165,27.2746,0.1626,0.1459,0.2604,0.2966,627.3036,identity,False,,,0.9958,,,,,,,,,,,,
+STS_008,known transform,CT->CT,affine,17.0435,17.0256,17.6056,17.903,0.4372,0.4353,0.5903,0.6708,53.2015,identity,False,,,0.9731,,,,,,,,,,,,
+STS_009,known transform,CT->CT,affine,12.8424,12.4537,22.9941,27.2584,0.317,0.3033,0.6301,0.7193,837.8118,identity,False,,,0.9957,,,,,,,,,,,,
+STS_010,known transform,CT->CT,affine,23.3303,23.3747,24.9236,25.7613,0.2778,0.2425,0.5976,0.7478,135.6101,identity,False,,,0.9919,,,,,,,,,,,,
+STS_011,known transform,CT->CT,affine,17.9538,18.0698,24.0891,26.5874,0.1804,0.1567,0.4094,0.4973,932.2985,identity,False,Not converged,,0.9962,,,,,,,,,,,,
+STS_012,known transform,CT->CT,affine,20.745,20.7614,23.6287,24.9971,0.1221,0.1092,0.2568,0.3257,292.6019,identity,False,Not converged,,0.9937,,,,,,,,,,,,
+STS_013,known transform,CT->CT,affine,21.1152,20.3562,35.1627,45.3155,0.3041,0.2687,0.6919,0.8613,1553.1896,identity,False,,,0.9927,,,,,,,,,,,,
+STS_014,known transform,CT->CT,affine,18.1976,17.8369,22.2561,24.112,0.4216,0.4055,0.8304,1.015,586.8544,identity,False,Not converged,,0.9915,,,,,,,,,,,,
+STS_015,known transform,CT->CT,affine,15.6511,15.7019,18.3879,19.7257,0.209,0.1884,0.4422,0.5627,369.3168,identity,False,Not converged,,0.9888,,,,,,,,,,,,
+STS_016,known transform,CT->CT,affine,14.7586,14.2225,20.1905,23.3349,0.4187,0.4178,0.8081,0.9813,825.7154,identity,False,Not converged,,0.9918,,,,,,,,,,,,
+STS_017,known transform,CT->CT,affine,15.8422,16.0928,21.2556,23.6013,0.4803,0.4787,0.8878,1.0079,483.6902,identity,False,,,0.9916,,,,,,,,,,,,
+STS_018,known transform,CT->CT,affine,13.3818,13.1175,16.092,17.5684,0.2032,0.1781,0.4139,0.5342,374.7289,identity,False,Not converged,,0.9888,,,,,,,,,,,,
+STS_019,known transform,CT->CT,affine,21.711,21.6994,22.7061,23.2906,0.4126,0.4198,0.6234,0.6863,34.3173,identity,False,,,0.9714,,,,,,,,,,,,
+STS_020,known transform,CT->CT,affine,20.4132,19.9768,36.749,44.0574,0.4469,0.3785,1.0676,1.2716,1950.6319,identity,False,Not converged,,0.9927,,,,,,,,,,,,
+STS_021,known transform,CT->CT,affine,10.1113,9.7812,17.3144,20.3287,0.2017,0.1889,0.4125,0.4895,1065.1087,identity,False,Not converged,,0.9963,,,,,,,,,,,,
+STS_022,known transform,CT->CT,affine,19.5444,19.2234,23.0164,25.3278,0.5792,0.4962,1.2399,1.5048,767.763,identity,False,Not converged,,0.9901,,,,,,,,,,,,
+STS_023,known transform,CT->CT,affine,21.3074,20.6701,28.3092,31.9215,0.2328,0.1899,0.5886,0.8676,618.0503,identity,False,Not converged,,0.9933,,,,,,,,,,,,
+STS_024,known transform,CT->CT,affine,16.8282,16.8328,18.3791,19.1587,0.1958,0.1803,0.4041,0.5082,380.6376,identity,False,Not converged,,0.99,,,,,,,,,,,,
+STS_025,known transform,CT->CT,affine,17.3959,17.3887,19.3185,20.0677,0.435,0.4396,0.7424,0.777,145.1122,identity,False,,,0.9748,,,,,,,,,,,,
+STS_026,known transform,CT->CT,affine,17.3398,17.5245,20.6686,21.9027,0.9928,0.9859,1.5372,1.6843,461.6795,identity,False,Not converged,,0.9881,,,,,,,,,,,,
+STS_027,known transform,CT->CT,affine,16.0147,15.7087,27.1791,33.0865,0.3664,0.3137,0.8126,1.0645,1067.6093,identity,False,Not converged,,0.9914,,,,,,,,,,,,
+STS_028,known transform,CT->CT,affine,21.1358,20.8307,25.0299,27.2435,0.3482,0.3128,0.7615,0.913,554.3338,identity,False,Not converged,,0.9889,,,,,,,,,,,,
+STS_029,known transform,CT->CT,affine,13.0385,12.8899,17.3077,18.974,0.712,0.7301,1.052,1.2363,486.8373,identity,False,Not converged,,0.9857,,,,,,,,,,,,
+STS_030,known transform,CT->CT,affine,14.2693,14.084,18.6196,20.9119,0.1915,0.1672,0.3937,0.6156,777.6806,identity,False,Not converged,,0.9935,,,,,,,,,,,,
+STS_031,known transform,CT->CT,affine,18.9606,18.8258,25.8746,28.0633,0.26,0.236,0.4859,0.6073,542.2022,identity,False,Not converged,,0.9928,,,,,,,,,,,,
+STS_032,known transform,CT->CT,affine,14.9043,14.8164,16.4983,17.3594,0.2367,0.2134,0.5099,0.666,305.2575,identity,False,,,0.9856,,,,,,,,,,,,
+STS_033,known transform,CT->CT,affine,16.8341,16.828,23.1449,26.1322,0.2984,0.2652,0.6427,0.8545,491.9779,identity,False,Not converged,,0.9903,,,,,,,,,,,,
+STS_034,known transform,CT->CT,affine,18.4401,17.9238,23.4702,27.1744,0.8755,0.9046,1.5812,1.7752,573.0583,identity,False,Not converged,,0.9909,,,,,,,,,,,,
+STS_035,known transform,CT->CT,affine,17.4656,17.2682,20.8436,22.1973,0.185,0.1599,0.4193,0.5395,258.8533,identity,False,Not converged,,0.9873,,,,,,,,,,,,
+STS_036,known transform,CT->CT,affine,16.145,15.9138,19.3283,24.1237,0.1804,0.16,0.3611,0.4486,478.3154,identity,False,Not converged,,0.9932,,,,,,,,,,,,
+STS_037,known transform,CT->CT,affine,10.1312,9.9384,14.8029,16.5096,0.1106,0.1012,0.2139,0.2657,182.6944,identity,False,,,0.9964,,,,,,,,,,,,
+STS_038,known transform,CT->CT,affine,11.24,11.008,15.7033,19.4594,0.431,0.3809,0.9757,1.2492,416.8329,identity,False,Not converged,,0.9898,,,,,,,,,,,,
+STS_039,known transform,CT->CT,affine,14.7449,13.9812,24.9631,28.9687,0.5144,0.4401,1.1524,1.3186,638.3134,identity,False,Not converged,,0.9912,,,,,,,,,,,,
+STS_040,known transform,CT->CT,affine,19.0957,18.9781,24.0753,26.2948,0.2013,0.1725,0.3984,0.4945,517.0908,identity,False,Not converged,,0.9948,,,,,,,,,,,,
+STS_041,known transform,CT->CT,affine,12.1609,12.0512,15.1269,16.7242,0.2604,0.241,0.51,0.6542,259.6381,identity,False,Not converged,,0.9845,,,,,,,,,,,,
+STS_042,known transform,CT->CT,affine,8.3352,8.1291,10.2668,11.1084,0.6935,0.6966,0.97,1.0318,212.5449,identity,False,Not converged,,0.9771,,,,,,,,,,,,
+STS_043,known transform,CT->CT,affine,15.3656,15.0636,17.61,19.0128,0.6216,0.5736,1.3089,1.6125,362.0352,identity,False,Not converged,,0.9849,,,,,,,,,,,,
+STS_044,known transform,CT->CT,affine,14.3832,14.595,20.0545,22.8283,0.2875,0.2509,0.5779,0.6614,582.7458,identity,False,Not converged,,0.9934,,,,,,,,,,,,
+STS_045,known transform,CT->CT,affine,10.5657,10.6425,15.4935,18.1167,0.4443,0.4373,0.8717,1.2006,755.4387,identity,False,,,0.9896,,,,,,,,,,,,
+STS_046,known transform,CT->CT,affine,17.0162,16.5521,22.3312,25.2929,0.3878,0.3806,0.7357,0.8693,751.4626,identity,False,Not converged,,0.9945,,,,,,,,,,,,
+STS_047,known transform,CT->CT,affine,14.5056,14.6062,18.7461,20.8423,0.4458,0.4598,0.8072,0.9424,353.4623,identity,False,Not converged,,0.9872,,,,,,,,,,,,
+STS_048,known transform,CT->CT,affine,7.3885,7.4545,9.5101,10.5664,0.2947,0.2595,0.6544,0.8313,98.5141,identity,False,,,0.9906,,,,,,,,,,,,
+STS_049,known transform,CT->CT,affine,13.6565,12.9144,21.0441,25.2329,0.328,0.2649,0.7718,0.8914,143.3723,identity,False,,,0.9949,,,,,,,,,,,,
+STS_050,known transform,CT->CT,affine,13.3314,13.1289,17.3437,18.9587,0.2507,0.2288,0.4847,0.5954,286.5314,identity,False,Not converged,,0.9902,,,,,,,,,,,,
+STS_051,known transform,CT->CT,affine,17.8067,17.7683,19.2227,19.7409,0.5705,0.5641,0.94,1.0829,286.1762,identity,False,Not converged,,0.9831,,,,,,,,,,,,
+STS_001,known transform,CT->CT,bspline,11.1214,10.9943,13.9152,14.9848,1.486,1.5088,2.2462,2.5783,1176.9982,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_002,known transform,CT->CT,bspline,7.3897,7.4288,9.1234,9.8054,0.338,0.3219,0.6148,0.9527,1058.6253,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_003,known transform,CT->CT,bspline,9.3624,9.3444,10.9846,11.5261,0.327,0.3103,0.5921,0.7304,989.4712,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_004,known transform,CT->CT,bspline,9.1639,8.929,12.5849,14.6099,0.4821,0.4655,0.8265,1.0728,1950.7679,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_005,known transform,CT->CT,bspline,11.6406,11.5032,13.0023,13.478,0.6302,0.6195,0.9896,1.0987,1848.6947,identity,False,,0.0,,,,,,,,,,,,,
+STS_006,known transform,CT->CT,bspline,8.571,8.7528,12.2954,13.2901,2.0142,2.1043,3.2882,3.6432,1062.9318,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_001,known transform,CT->CT,rigid,11.3771,11.3766,13.1441,13.7153,0.0662,0.0653,0.0841,0.0914,457.3853,identity,False,Not converged,,0.9981,,,,,,,,,,,,
+STS_002,known transform,CT->CT,rigid,13.1593,13.1184,15.6588,16.5263,0.5282,0.5314,0.6981,0.7544,211.9873,identity,False,Not converged,,0.982,,,,,,,,,,,,
+STS_003,known transform,CT->CT,rigid,11.8007,11.7835,13.9109,14.6617,0.3619,0.3691,0.5017,0.5416,238.6371,identity,False,Not converged,,0.9841,,,,,,,,,,,,
+STS_004,known transform,CT->CT,rigid,23.0434,23.0874,28.4956,31.4914,0.8344,0.8342,0.8463,0.8514,143.785,identity,False,Large correction,,0.9842,,,,,,,,,,,,
+STS_005,known transform,CT->CT,rigid,15.4891,15.3489,21.4641,23.4777,0.234,0.233,0.2641,0.2792,52.4353,identity,False,,,0.9963,,,,,,,,,,,,
+STS_006,known transform,CT->CT,rigid,20.3788,20.3484,23.2267,24.2809,2.428,2.4356,2.6722,2.7686,324.2823,identity,False,Not converged | Large correction,,0.9596,,,,,,,,,,,,
+STS_007,known transform,CT->CT,rigid,18.8765,18.7496,21.1823,22.2158,0.2459,0.2466,0.273,0.2833,191.8473,identity,False,,,0.9977,,,,,,,,,,,,
+STS_008,known transform,CT->CT,rigid,20.62,20.6063,21.0508,21.2498,0.1203,0.1195,0.1364,0.141,14.2818,identity,False,Large correction,,0.9936,,,,,,,,,,,,
+STS_009,known transform,CT->CT,rigid,19.4395,19.4619,27.5166,29.8174,0.8271,0.8273,0.8842,0.9044,926.9017,identity,False,,,0.9939,,,,,,,,,,,,
+STS_010,known transform,CT->CT,rigid,19.0388,19.1651,25.1104,27.0816,0.3918,0.3903,0.4242,0.4377,306.3784,identity,False,Not converged,,0.9908,,,,,,,,,,,,
+STS_011,known transform,CT->CT,rigid,17.4462,17.4043,21.35,23.4171,0.4254,0.4248,0.4503,0.4587,641.2897,identity,False,,,0.9918,,,,,,,,,,,,
+STS_012,known transform,CT->CT,rigid,14.9716,14.9736,18.2683,19.7563,0.6339,0.6121,0.8094,0.9268,292.3732,identity,False,Not converged,,0.9715,,,,,,,,,,,,
+STS_013,known transform,CT->CT,rigid,15.0135,13.298,30.1916,36.5576,0.167,0.1683,0.1788,0.1836,500.6716,identity,False,,,0.9969,,,,,,,,,,,,
+STS_014,known transform,CT->CT,rigid,10.6772,10.3872,16.417,19.3778,1.0152,1.0067,1.772,2.133,564.2658,identity,False,Not converged,,0.9801,,,,,,,,,,,,
+STS_015,known transform,CT->CT,rigid,13.9401,13.4985,18.8572,21.4425,0.6349,0.6405,0.8634,0.9544,337.172,identity,False,Not converged,,0.9717,,,,,,,,,,,,
+STS_016,known transform,CT->CT,rigid,18.3744,18.3191,22.898,25.2278,0.7118,0.7119,0.7313,0.7383,774.5599,identity,False,Not converged,,0.9877,,,,,,,,,,,,
+STS_017,known transform,CT->CT,rigid,15.268,15.2971,19.1572,21.0606,0.301,0.3007,0.3174,0.3252,929.6724,identity,False,Not converged,,0.9947,,,,,,,,,,,,
+STS_018,known transform,CT->CT,rigid,16.8765,16.9749,22.6783,24.9006,0.2564,0.2562,0.3404,0.3707,324.5656,identity,False,Not converged,,0.991,,,,,,,,,,,,
+STS_019,known transform,CT->CT,rigid,13.1779,13.1838,13.5559,13.7038,0.1281,0.1284,0.133,0.1344,23.2997,identity,False,,,0.9876,,,,,,,,,,,,
+STS_020,known transform,CT->CT,rigid,22.8594,20.9825,39.9661,47.3976,0.2518,0.2391,0.428,0.5138,1849.3358,identity,False,Not converged | Large correction,,0.9955,,,,,,,,,,,,
+STS_021,known transform,CT->CT,rigid,18.1742,18.1971,23.3196,24.9301,0.1906,0.1914,0.2041,0.2088,1014.8153,identity,False,Not converged,,0.9966,,,,,,,,,,,,
+STS_022,known transform,CT->CT,rigid,21.7252,21.9787,26.1663,27.4431,1.0433,1.008,1.8695,2.4943,672.5639,identity,False,Not converged | Large correction,,0.9832,,,,,,,,,,,,
+STS_023,known transform,CT->CT,rigid,11.983,11.8883,17.2395,21.2942,1.7117,1.7502,2.1534,2.3501,510.0653,identity,False,Not converged,,0.9553,,,,,,,,,,,,
+STS_024,known transform,CT->CT,rigid,18.1076,18.1309,19.035,19.4403,1.1095,1.1094,1.1351,1.1452,299.6605,identity,False,Not converged,,0.9914,,,,,,,,,,,,
+STS_025,known transform,CT->CT,rigid,12.7447,12.8366,16.333,17.622,0.3458,0.3454,0.3616,0.3671,208.0908,identity,False,,,0.9832,,,,,,,,,,,,
+STS_026,known transform,CT->CT,rigid,12.0054,12.0646,16.6936,18.6746,0.5831,0.5771,0.9396,1.0542,382.5248,identity,False,Not converged,,0.9856,,,,,,,,,,,,
+STS_027,known transform,CT->CT,rigid,21.0266,20.5311,25.2878,27.7195,0.6855,0.6862,0.7081,0.7183,813.0026,identity,False,Large correction,,0.9902,,,,,,,,,,,,
+STS_028,known transform,CT->CT,rigid,14.3683,14.6115,17.9455,19.4995,0.3843,0.3836,0.3934,0.4007,453.8727,identity,False,Not converged,,0.9886,,,,,,,,,,,,
+STS_029,known transform,CT->CT,rigid,8.8021,8.8019,11.993,14.0231,0.313,0.3114,0.3735,0.4096,416.0161,identity,False,Not converged,,0.9913,,,,,,,,,,,,
+STS_030,known transform,CT->CT,rigid,10.0933,10.1073,13.0001,13.8894,0.3774,0.3769,0.3894,0.3948,717.99,identity,False,,,0.9904,,,,,,,,,,,,
+STS_031,known transform,CT->CT,rigid,11.3333,11.3691,15.559,16.6698,0.0959,0.0969,0.1328,0.1416,551.0692,identity,False,Not converged,,0.9979,,,,,,,,,,,,
+STS_032,known transform,CT->CT,rigid,4.8109,4.7858,7.6383,8.4625,0.4037,0.4036,0.4221,0.4281,70.5746,identity,False,,,0.9867,,,,,,,,,,,,
+STS_033,known transform,CT->CT,rigid,17.6376,17.5694,22.728,25.0641,1.1835,1.1852,1.4912,1.5971,491.834,identity,False,Not converged,,0.9759,,,,,,,,,,,,
+STS_034,known transform,CT->CT,rigid,8.1867,8.1705,11.9293,13.5998,1.8725,1.8448,2.5996,2.9751,499.5041,identity,False,Not converged,,0.9712,,,,,,,,,,,,
+STS_035,known transform,CT->CT,rigid,13.6665,13.5935,14.1905,14.471,0.3801,0.3796,0.386,0.3882,40.574,identity,False,,,0.9858,,,,,,,,,,,,
+STS_036,known transform,CT->CT,rigid,6.7382,6.7002,10.4281,11.4094,0.1244,0.1247,0.1628,0.1775,218.8323,identity,False,,,0.9957,,,,,,,,,,,,
+STS_037,known transform,CT->CT,rigid,19.252,18.8846,25.775,27.9064,0.1184,0.1189,0.1433,0.1526,89.6213,identity,False,,,0.9977,,,,,,,,,,,,
+STS_038,known transform,CT->CT,rigid,20.2291,19.8121,23.3482,25.1192,0.4393,0.4401,0.7592,0.9426,373.3156,identity,False,Not converged | Large correction,,0.9902,,,,,,,,,,,,
+STS_039,known transform,CT->CT,rigid,8.3446,7.9895,15.7863,17.6182,0.2969,0.2968,0.3061,0.3093,177.984,identity,False,,,0.9965,,,,,,,,,,,,
+STS_040,known transform,CT->CT,rigid,15.6419,15.2801,19.8358,22.1152,0.122,0.1237,0.194,0.2269,476.4244,identity,False,Not converged,,0.9964,,,,,,,,,,,,
+STS_041,known transform,CT->CT,rigid,15.8191,15.9235,19.5539,20.7687,0.5326,0.5229,0.7918,0.874,213.1721,identity,False,Not converged,,0.9762,,,,,,,,,,,,
+STS_042,known transform,CT->CT,rigid,7.4327,7.3566,9.0829,10.4625,0.5809,0.5817,0.7115,0.7639,180.9065,identity,False,Not converged,,0.9713,,,,,,,,,,,,
+STS_043,known transform,CT->CT,rigid,10.262,9.7868,17.0999,19.6174,3.8905,3.895,4.3227,4.4927,306.8089,identity,False,Not converged,,0.9337,,,,,,,,,,,,
+STS_044,known transform,CT->CT,rigid,20.0763,19.4912,25.4839,30.4303,1.7984,1.8726,2.7789,3.1037,481.1444,identity,False,Not converged | Large correction,,0.9659,,,,,,,,,,,,
+STS_045,known transform,CT->CT,rigid,15.2026,14.8199,23.2705,26.2155,0.2594,0.2577,0.3308,0.4184,686.8768,identity,False,Not converged,,0.9922,,,,,,,,,,,,
+STS_046,known transform,CT->CT,rigid,14.2083,14.4089,22.3397,26.0879,0.418,0.4205,0.506,0.5406,711.5766,identity,False,Not converged,,0.993,,,,,,,,,,,,
+STS_047,known transform,CT->CT,rigid,17.1246,17.1872,19.0369,19.8312,0.4927,0.4946,0.5387,0.5514,321.8635,identity,False,Not converged,,0.9866,,,,,,,,,,,,
+STS_048,known transform,CT->CT,rigid,14.6548,14.6751,18.5077,19.7964,0.3672,0.3675,0.432,0.4532,28.4638,identity,False,,,0.9925,,,,,,,,,,,,
+STS_049,known transform,CT->CT,rigid,15.8418,14.1099,25.3567,29.5541,0.2977,0.2979,0.311,0.3169,67.295,identity,False,,,0.9963,,,,,,,,,,,,
+STS_050,known transform,CT->CT,rigid,20.618,20.2916,22.9086,24.6534,2.74,2.7387,4.0786,4.5097,246.2097,identity,False,Not converged | Large correction,,0.9403,,,,,,,,,,,,
+STS_051,known transform,CT->CT,rigid,14.8023,14.6278,20.1937,22.6548,0.351,0.3508,0.3671,0.3733,288.8259,identity,False,Not converged,,0.9933,,,,,,,,,,,,
+STS_001,known transform,PET->PET,affine,17.5025,17.0951,25.4097,28.4392,0.2339,0.2144,0.4483,0.5873,10.0596,identity,False,Not converged,,0.9932,,,,,,,,,,,,
+STS_002,known transform,PET->PET,affine,6.1391,6.0934,8.8814,10.0069,0.1906,0.174,0.3791,0.4731,3.7185,identity,False,Not converged,,0.9898,,,,,,,,,,,,
+STS_003,known transform,PET->PET,affine,15.5007,15.5121,16.365,16.7023,0.0916,0.0914,0.1472,0.1792,3.9641,identity,False,Not converged,,0.9963,,,,,,,,,,,,
+STS_004,known transform,PET->PET,affine,19.9537,19.9575,27.0161,33.1692,0.0802,0.0766,0.1517,0.1962,18.093,identity,False,Not converged,,0.9971,,,,,,,,,,,,
+STS_005,known transform,PET->PET,affine,17.2593,17.0667,20.0475,21.3731,0.2706,0.2674,0.4069,0.4909,4.6865,identity,False,,,0.9907,,,,,,,,,,,,
+STS_006,known transform,PET->PET,affine,14.3478,14.1632,18.2719,20.569,0.1322,0.1289,0.2301,0.2799,12.495,identity,False,Not converged,,0.9952,,,,,,,,,,,,
+STS_007,known transform,PET->PET,affine,17.9625,18.1857,22.3057,23.7859,0.2049,0.1707,0.444,0.609,10.3664,identity,False,,,0.9935,,,,,,,,,,,,
+STS_008,known transform,PET->PET,affine,14.1486,14.1888,16.9382,18.0831,0.086,0.0803,0.1424,0.1697,3.382,identity,False,,,0.9949,,,,,,,,,,,,
+STS_009,known transform,PET->PET,affine,18.867,18.8002,23.8483,26.485,0.103,0.0892,0.2161,0.2624,29.1118,identity,False,Not converged,,0.9979,,,,,,,,,,,,
+STS_010,known transform,PET->PET,affine,16.5718,16.2617,22.5795,25.225,0.2426,0.2106,0.5355,0.6886,5.8628,identity,False,Not converged,,0.9909,,,,,,,,,,,,
+STS_011,known transform,PET->PET,affine,18.3832,18.6434,25.2986,28.5522,0.2165,0.199,0.436,0.543,19.3021,identity,False,Not converged,,0.9944,,,,,,,,,,,,
+STS_012,known transform,PET->PET,affine,20.6464,20.6041,22.6,23.5205,0.3094,0.3133,0.5366,0.6673,5.966,identity,False,Not converged,,0.9762,,,,,,,,,,,,
+STS_013,known transform,PET->PET,affine,17.624,17.3399,23.3634,27.2538,0.167,0.1579,0.3115,0.3995,49.1447,identity,False,,,0.9945,,,,,,,,,,,,
+STS_014,known transform,PET->PET,affine,19.9313,19.888,22.979,24.1989,0.1331,0.1324,0.2211,0.2588,11.7349,identity,False,Not converged,,0.9986,,,,,,,,,,,,
+STS_015,known transform,PET->PET,affine,7.7538,7.8212,10.0735,10.6774,0.1729,0.1767,0.2595,0.2992,7.3174,identity,False,Not converged,,0.9878,,,,,,,,,,,,
+STS_016,known transform,PET->PET,affine,7.7251,7.6383,13.3228,15.2042,0.1614,0.1555,0.2724,0.3344,14.2293,identity,False,Not converged,,0.9931,,,,,,,,,,,,
+STS_017,known transform,PET->PET,affine,16.1307,15.9679,20.0048,22.6311,0.0548,0.0522,0.0964,0.1288,39.2179,identity,False,Not converged,,0.9982,,,,,,,,,,,,
+STS_018,known transform,PET->PET,affine,14.8421,14.7387,18.2724,19.5278,0.3334,0.3156,0.5668,0.6713,6.7188,identity,False,Not converged,,0.988,,,,,,,,,,,,
+STS_019,known transform,PET->PET,affine,12.3792,12.3159,15.9115,18.024,0.1708,0.1723,0.2296,0.2574,4.5094,identity,False,Not converged,,0.9918,,,,,,,,,,,,
+STS_020,known transform,PET->PET,affine,13.5878,13.4466,14.9332,15.5941,0.3996,0.3989,0.6896,0.7826,33.6071,identity,False,Not converged,,0.9943,,,,,,,,,,,,
+STS_021,known transform,PET->PET,affine,14.657,14.5077,22.1702,24.463,0.1747,0.1712,0.3096,0.3774,25.1154,identity,False,Not converged,,0.9956,,,,,,,,,,,,
+STS_022,known transform,PET->PET,affine,15.8331,16.4514,26.5502,30.2855,0.3057,0.2774,0.5937,0.6729,14.9949,identity,False,Not converged,,0.9935,,,,,,,,,,,,
+STS_023,known transform,PET->PET,affine,12.3454,12.3186,13.4157,14.0074,0.1618,0.1592,0.2682,0.315,14.223,identity,False,Not converged,,0.9916,,,,,,,,,,,,
+STS_024,known transform,PET->PET,affine,15.435,15.5216,17.8184,18.7808,0.2827,0.2777,0.5022,0.6051,6.0392,identity,False,Not converged,,0.9812,,,,,,,,,,,,
+STS_025,known transform,PET->PET,affine,14.8771,14.9131,17.1235,17.9785,0.1741,0.1691,0.2691,0.3314,7.4723,identity,False,Not converged,,0.991,,,,,,,,,,,,
+STS_026,known transform,PET->PET,affine,12.2603,12.2679,16.2529,17.9748,0.3528,0.3492,0.493,0.5634,13.4912,identity,False,Not converged,,0.9924,,,,,,,,,,,,
+STS_027,known transform,PET->PET,affine,9.7916,9.2943,13.5868,15.2389,0.0608,0.0567,0.1169,0.1498,16.9743,identity,False,Not converged,,0.9983,,,,,,,,,,,,
+STS_028,known transform,PET->PET,affine,15.4264,15.4147,19.6849,22.278,0.2535,0.2362,0.4913,0.6744,12.8545,identity,False,Not converged,,0.9905,,,,,,,,,,,,
+STS_029,known transform,PET->PET,affine,9.3093,9.2634,16.4595,18.6817,0.3349,0.3363,0.475,0.558,9.9882,identity,False,Not converged,,0.9847,,,,,,,,,,,,
+STS_030,known transform,PET->PET,affine,12.3508,12.3418,12.944,13.3204,0.1803,0.1748,0.3062,0.3817,12.6751,identity,False,Not converged,,0.9941,,,,,,,,,,,,
+STS_031,known transform,PET->PET,affine,16.8458,16.9717,22.564,24.458,0.28,0.2783,0.4758,0.582,9.6194,identity,False,Not converged,,0.9912,,,,,,,,,,,,
+STS_032,known transform,PET->PET,affine,16.6323,16.5879,17.9996,18.5951,0.0786,0.0779,0.1213,0.1458,9.0179,identity,False,Not converged,,0.9968,,,,,,,,,,,,
+STS_033,known transform,PET->PET,affine,17.2361,17.3093,20.8475,21.976,0.1278,0.1128,0.2639,0.3383,8.4814,identity,False,Not converged,,0.9933,,,,,,,,,,,,
+STS_034,known transform,PET->PET,affine,10.8168,10.9735,16.2975,18.1704,0.3856,0.3792,0.7393,0.8995,10.565,identity,False,Not converged,,0.9941,,,,,,,,,,,,
+STS_035,known transform,PET->PET,affine,12.1389,11.9557,13.8834,14.8297,0.1396,0.1372,0.2421,0.287,4.8088,identity,False,Not converged,,0.9959,,,,,,,,,,,,
+STS_036,known transform,PET->PET,affine,9.885,9.8462,11.963,12.6903,0.1072,0.1082,0.1495,0.1783,13.0189,identity,False,Not converged,,0.9972,,,,,,,,,,,,
+STS_037,known transform,PET->PET,affine,14.9222,14.9741,17.7516,18.9996,0.0992,0.0931,0.1933,0.2631,19.0908,identity,False,Not converged,,0.9966,,,,,,,,,,,,
+STS_038,known transform,PET->PET,affine,19.6025,19.5897,20.8719,21.5371,0.0961,0.0929,0.1714,0.202,7.0139,identity,False,Not converged,,0.9958,,,,,,,,,,,,
+STS_039,known transform,PET->PET,affine,20.1134,19.932,24.8117,26.6418,0.1035,0.0937,0.2187,0.2858,12.2941,identity,False,Not converged,,0.9989,,,,,,,,,,,,
+STS_040,known transform,PET->PET,affine,16.0192,15.9085,19.6002,21.2407,0.1344,0.1332,0.2182,0.278,13.2,identity,False,Not converged,,0.9946,,,,,,,,,,,,
+STS_041,known transform,PET->PET,affine,16.8628,16.8857,20.0634,21.5014,0.2248,0.2168,0.3775,0.4339,4.2267,identity,False,Not converged,,0.9827,,,,,,,,,,,,
+STS_042,known transform,PET->PET,affine,10.3609,10.2033,13.6487,14.9835,0.2485,0.2222,0.4969,0.6032,3.9273,identity,False,Not converged,,0.9755,,,,,,,,,,,,
+STS_043,known transform,PET->PET,affine,15.2199,15.254,18.7917,20.658,0.1282,0.1262,0.2029,0.2365,11.5248,identity,False,Not converged,,0.9951,,,,,,,,,,,,
+STS_044,known transform,PET->PET,affine,18.1425,17.7858,25.9624,30.6367,0.1773,0.1758,0.3185,0.4117,14.3089,identity,False,Not converged,,0.9937,,,,,,,,,,,,
+STS_045,known transform,PET->PET,affine,18.9483,19.1378,27.077,30.6195,0.0596,0.0521,0.1178,0.1442,27.3249,identity,False,Not converged,,0.9983,,,,,,,,,,,,
+STS_046,known transform,PET->PET,affine,8.8571,8.2797,15.7723,18.4292,0.0655,0.0644,0.1093,0.1315,28.7384,identity,False,Not converged,,0.9982,,,,,,,,,,,,
+STS_047,known transform,PET->PET,affine,9.7228,9.5471,13.1454,15.4963,0.1126,0.0998,0.2288,0.3139,12.2439,identity,False,Not converged,,0.9926,,,,,,,,,,,,
+STS_048,known transform,PET->PET,affine,16.3836,16.4822,21.0373,22.7405,0.2243,0.2211,0.3392,0.3866,7.9808,identity,False,,,0.9921,,,,,,,,,,,,
+STS_049,known transform,PET->PET,affine,13.5811,13.1361,21.8931,26.0652,0.1665,0.1194,0.4093,0.4573,3.8469,identity,False,,,0.9977,,,,,,,,,,,,
+STS_050,known transform,PET->PET,affine,18.0141,17.9095,21.7368,23.3177,0.175,0.1647,0.338,0.4114,4.882,identity,False,Not converged,,0.9951,,,,,,,,,,,,
+STS_051,known transform,PET->PET,affine,15.232,15.4379,21.4651,23.857,0.1452,0.1421,0.2286,0.2662,9.1964,identity,False,Not converged,,0.9943,,,,,,,,,,,,
+STS_001,known transform,PET->PET,bspline,8.6345,8.394,11.0258,12.2132,0.4898,0.4917,0.8147,1.0349,144.0165,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_002,known transform,PET->PET,bspline,8.0306,8.0059,8.9804,9.2673,1.2679,1.2209,2.2921,2.6753,53.0972,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_003,known transform,PET->PET,bspline,5.5121,5.5141,7.5605,8.2966,1.2289,1.1689,2.4055,2.922,47.2591,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_004,known transform,PET->PET,bspline,5.7241,5.7565,8.0849,9.1007,0.374,0.3497,0.7036,0.9243,133.9761,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_005,known transform,PET->PET,bspline,10.4283,10.4091,12.1575,13.0685,0.4632,0.4457,0.827,1.0968,35.3724,identity,False,,0.0,,,,,,,,,,,,,
+STS_006,known transform,PET->PET,bspline,8.873,8.8649,10.7731,11.5335,0.3463,0.309,0.7032,1.1274,115.8111,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_007,known transform,PET->PET,bspline,11.649,11.8173,14.3551,15.1678,0.4437,0.4385,0.7547,1.0213,203.295,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_008,known transform,PET->PET,bspline,7.4671,7.4376,9.1249,9.6607,0.7865,0.6844,1.6309,1.8552,149.8048,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_009,known transform,PET->PET,bspline,5.2843,5.0705,9.784,11.5869,0.3586,0.3251,0.7313,1.6956,255.0291,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_010,known transform,PET->PET,bspline,9.0549,9.0923,11.1562,11.9446,0.6931,0.6608,1.2375,2.0011,66.0253,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_011,known transform,PET->PET,bspline,6.9172,6.8538,11.3911,13.8813,0.5053,0.4493,1.0045,1.9817,321.6335,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_012,known transform,PET->PET,bspline,8.8912,8.887,10.4869,11.0128,0.6402,0.638,0.9951,1.085,51.9494,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_013,known transform,PET->PET,bspline,8.0626,8.0704,11.1788,12.7026,0.2174,0.2088,0.3808,0.5186,165.055,identity,False,,0.0,,,,,,,,,,,,,
+STS_014,known transform,PET->PET,bspline,11.6404,11.7811,12.8185,13.5848,0.6057,0.5875,1.0426,1.9241,97.9335,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_015,known transform,PET->PET,bspline,10.1495,10.0661,12.0969,13.2276,0.927,0.9307,1.5675,2.0583,210.9802,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_016,known transform,PET->PET,bspline,10.9235,10.921,12.7596,14.2114,0.4878,0.4686,0.837,1.1176,97.0849,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_017,known transform,PET->PET,bspline,8.4148,8.1193,12.6579,14.4586,0.2701,0.2492,0.5084,0.771,186.6846,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_018,known transform,PET->PET,bspline,6.775,6.7314,9.0373,9.8072,0.6625,0.6385,1.2162,1.516,122.8347,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_019,known transform,PET->PET,bspline,10.74,10.7352,12.4372,13.0448,0.8044,0.8039,1.3901,1.5127,63.851,identity,False,,0.0,,,,,,,,,,,,,
+STS_020,known transform,PET->PET,bspline,11.3151,10.5828,19.6485,22.3889,0.9816,0.8966,1.8243,2.1358,510.8969,identity,False,Not converged | The B-spline step made the match worse (-0.9899 vs -0.9917); the affine result is kept without deformation.,,,,,,,,,,,,,,
+STS_021,known transform,PET->PET,bspline,10.2247,10.0273,13.8836,16.7559,0.2657,0.2539,0.4916,0.7481,169.5351,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_022,known transform,PET->PET,bspline,5.2007,4.841,9.496,11.5943,0.6258,0.61,1.0577,1.7627,88.7308,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_023,known transform,PET->PET,bspline,7.1605,7.1169,8.9565,11.3328,0.8071,0.7261,1.669,2.8552,197.634,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_024,known transform,PET->PET,bspline,2.786,2.8322,3.7686,3.9029,0.7241,0.7069,1.23,1.552,70.1795,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_025,known transform,PET->PET,bspline,10.722,10.7129,11.7176,12.1301,0.6777,0.6642,1.1317,1.4159,164.3992,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_026,known transform,PET->PET,bspline,8.1429,8.2678,10.6962,11.8216,0.7782,0.603,2.1303,4.6513,248.4555,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_027,known transform,PET->PET,bspline,4.5947,4.545,7.9915,9.6228,0.2546,0.2417,0.4569,0.8004,62.4949,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_028,known transform,PET->PET,bspline,10.3019,10.0167,12.9473,14.5474,0.4815,0.4212,1.0315,1.4452,64.8166,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_029,known transform,PET->PET,bspline,10.3513,10.4208,14.2873,16.133,0.7262,0.7254,1.2228,1.4465,256.6168,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_030,known transform,PET->PET,bspline,10.2434,10.2529,13.0511,14.9581,0.4302,0.4076,0.7987,1.227,120.2231,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_031,known transform,PET->PET,bspline,10.1146,10.2459,11.6693,12.2027,0.5528,0.5076,1.1388,1.8199,73.8645,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_032,known transform,PET->PET,bspline,4.2952,4.2703,5.0084,5.4112,0.625,0.5525,1.3212,1.6428,104.5101,identity,False,,0.0,,,,,,,,,,,,,
+STS_033,known transform,PET->PET,bspline,6.9425,6.8654,8.3876,9.4388,0.5273,0.4846,1.0922,1.9219,98.4252,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_034,known transform,PET->PET,bspline,8.0021,8.1093,12.3648,13.6459,0.8637,0.7275,1.8063,4.3695,96.422,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_035,known transform,PET->PET,bspline,7.6493,7.5942,8.2614,8.7924,0.6261,0.5418,1.2354,1.591,64.0777,identity,False,,0.0,,,,,,,,,,,,,
+STS_036,known transform,PET->PET,bspline,7.3452,7.3992,10.2731,11.5548,0.4124,0.3586,0.861,1.2364,101.9521,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_037,known transform,PET->PET,bspline,9.4615,9.3282,13.0276,14.7116,0.4687,0.4382,0.8588,1.0976,248.5328,identity,False,,0.0,,,,,,,,,,,,,
+STS_038,known transform,PET->PET,bspline,8.9967,8.9356,12.2196,13.9722,0.5888,0.5573,1.0665,1.3767,53.3839,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_039,known transform,PET->PET,bspline,6.8674,6.6162,11.2484,12.8677,0.5465,0.5081,1.0776,1.3554,147.5883,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_040,known transform,PET->PET,bspline,9.5996,9.5164,13.277,14.9489,0.4385,0.4071,0.8118,1.406,242.485,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_041,known transform,PET->PET,bspline,5.1142,5.1399,5.3969,5.5199,0.5559,0.5564,0.9488,1.1839,97.4621,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_042,known transform,PET->PET,bspline,3.7821,3.7478,5.457,6.0424,1.2041,1.0413,2.3768,2.9062,75.7609,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_043,known transform,PET->PET,bspline,10.6803,10.681,13.3769,14.3625,0.3551,0.3378,0.6625,1.0098,184.5842,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_044,known transform,PET->PET,bspline,7.4326,7.0428,11.2995,13.0966,1.2134,1.1548,2.241,2.7836,99.6844,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_045,known transform,PET->PET,bspline,10.0323,9.5874,12.7367,14.2037,0.3399,0.303,0.7039,1.2971,419.9497,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_046,known transform,PET->PET,bspline,6.9386,6.6376,9.9364,11.3263,0.2759,0.2595,0.5248,0.7005,178.3918,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_047,known transform,PET->PET,bspline,4.8031,4.7066,5.9813,6.8193,0.3966,0.3566,0.8032,1.1924,126.6768,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_048,known transform,PET->PET,bspline,8.0737,8.1661,10.8903,11.6144,0.3953,0.3743,0.7049,0.9916,224.2562,identity,False,,0.0,,,,,,,,,,,,,
+STS_049,known transform,PET->PET,bspline,12.5212,12.3432,15.028,16.5886,0.3375,0.3258,0.5987,0.7834,53.0851,identity,False,,0.0,,,,,,,,,,,,,
+STS_050,known transform,PET->PET,bspline,6.6724,6.7162,8.1039,8.6134,0.4486,0.4131,0.8366,1.6121,43.9828,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_051,known transform,PET->PET,bspline,1.9681,2.0063,3.085,3.8246,0.5851,0.5659,1.0636,1.4696,114.5409,identity,False,Not converged,0.0,,,,,,,,,,,,,
+STS_001,known transform,PET->PET,rigid,10.1516,10.0762,17.0689,19.9716,0.3606,0.3398,0.6013,0.7176,9.7187,identity,False,Not converged,,0.9895,,,,,,,,,,,,
+STS_002,known transform,PET->PET,rigid,9.9838,9.8413,12.4498,13.138,1.6487,1.6411,2.8429,3.1454,3.5254,identity,False,Not converged,,0.9394,,,,,,,,,,,,
+STS_003,known transform,PET->PET,rigid,9.534,9.4738,14.3576,16.6549,0.8404,0.8494,1.3957,1.6855,3.6285,identity,False,Not converged,,0.9614,,,,,,,,,,,,
+STS_004,known transform,PET->PET,rigid,13.8955,13.8672,18.6217,20.4316,0.1366,0.1327,0.2468,0.3146,16.7901,identity,False,Not converged,,0.9947,,,,,,,,,,,,
+STS_005,known transform,PET->PET,rigid,12.9523,12.9805,19.8032,24.0234,0.1532,0.1551,0.1891,0.2034,3.8297,identity,False,,,0.996,,,,,,,,,,,,
+STS_006,known transform,PET->PET,rigid,5.3655,4.9571,10.5815,14.0315,2.8886,2.7313,5.6062,7.9123,12.3441,identity,False,Not converged,,0.9099,,,,,,,,,,,,
+STS_007,known transform,PET->PET,rigid,18.4445,18.4054,26.6911,29.8319,1.0405,0.9805,2.029,2.5381,17.3305,identity,False,Not converged,,0.9687,,,,,,,,,,,,
+STS_008,known transform,PET->PET,rigid,14.9667,14.9562,17.2515,17.8787,0.0974,0.0971,0.1187,0.1269,3.5624,identity,False,,,0.9922,,,,,,,,,,,,
+STS_009,known transform,PET->PET,rigid,14.5695,14.2294,24.7189,30.8961,1.4379,1.3851,2.7125,3.4986,33.9835,identity,False,Not converged,,0.9752,,,,,,,,,,,,
+STS_010,known transform,PET->PET,rigid,17.2167,17.3251,21.936,23.4879,1.105,1.117,1.8299,2.3038,5.3047,identity,False,Not converged,,0.9734,,,,,,,,,,,,
+STS_011,known transform,PET->PET,rigid,13.0805,12.9926,19.0016,21.189,2.0759,2.059,3.6365,4.412,19.306,identity,False,Not converged,,0.9549,,,,,,,,,,,,
+STS_012,known transform,PET->PET,rigid,19.5854,19.5768,21.8981,22.6844,0.4423,0.4466,0.7007,0.8015,5.8024,identity,False,Not converged,,0.9757,,,,,,,,,,,,
+STS_013,known transform,PET->PET,rigid,17.1612,15.6235,28.9444,35.7775,0.1378,0.1347,0.1623,0.1807,21.5488,identity,False,,,0.9973,,,,,,,,,,,,
+STS_014,known transform,PET->PET,rigid,20.3277,20.2256,24.3048,25.7715,0.8255,0.8183,1.4321,1.907,8.7259,identity,False,Not converged,,0.9789,,,,,,,,,,,,
+STS_015,known transform,PET->PET,rigid,14.5614,14.5291,17.2086,18.1223,2.257,2.2345,4.0384,5.801,7.7777,identity,False,Not converged,,0.9344,,,,,,,,,,,,
+STS_016,known transform,PET->PET,rigid,11.0045,11.16,16.7664,18.7756,1.2497,1.2505,2.1469,2.768,13.2892,identity,False,Not converged,,0.9668,,,,,,,,,,,,
+STS_017,known transform,PET->PET,rigid,10.3028,10.2672,17.3282,21.1252,2.8585,2.8888,4.8007,6.1265,37.4888,identity,False,Not converged,,0.9467,,,,,,,,,,,,
+STS_018,known transform,PET->PET,rigid,18.2099,18.1429,22.278,23.7066,0.6033,0.5927,1.0214,1.174,6.6092,identity,False,Not converged,,0.9704,,,,,,,,,,,,
+STS_019,known transform,PET->PET,rigid,16.59,16.5683,18.9635,20.288,0.1002,0.1002,0.1707,0.1867,6.0554,identity,False,Not converged,,0.9958,,,,,,,,,,,,
+STS_020,known transform,PET->PET,rigid,13.6283,12.6567,25.9857,33.4075,2.1518,2.1808,3.3599,4.2689,29.9099,identity,False,Not converged,,0.9636,,,,,,,,,,,,
+STS_021,known transform,PET->PET,rigid,19.8885,20.0646,29.2165,32.7473,1.7689,1.8295,2.7894,3.1953,22.0424,identity,False,Not converged,,0.9631,,,,,,,,,,,,
+STS_022,known transform,PET->PET,rigid,16.2598,15.5982,22.1458,25.1233,4.8517,4.941,7.9141,9.5303,14.7341,identity,False,Not converged,,0.9356,,,,,,,,,,,,
+STS_023,known transform,PET->PET,rigid,9.2847,9.1828,12.6899,14.4149,1.9415,1.8638,3.6861,5.797,11.4891,identity,False,Not converged,,0.9341,,,,,,,,,,,,
+STS_024,known transform,PET->PET,rigid,19.731,19.6044,22.8427,23.9419,2.3448,2.2889,4.2313,5.7378,5.6073,identity,False,Not converged,,0.9241,,,,,,,,,,,,
+STS_025,known transform,PET->PET,rigid,22.5146,22.6085,26.1503,27.5663,0.6524,0.6583,1.0804,1.3639,7.0287,identity,False,Not converged | Large correction,,0.9495,,,,,,,,,,,,
+STS_026,known transform,PET->PET,rigid,15.502,15.5136,16.101,16.2853,0.1521,0.1527,0.2036,0.2298,9.8443,identity,False,Not converged,,0.9923,,,,,,,,,,,,
+STS_027,known transform,PET->PET,rigid,13.2873,13.026,24.3752,28.7219,2.7994,2.8601,4.4894,5.4519,16.3804,identity,False,Not converged,,0.944,,,,,,,,,,,,
+STS_028,known transform,PET->PET,rigid,16.5979,16.4824,23.6758,25.8699,0.8609,0.8391,1.5215,1.7903,9.4053,identity,False,Not converged,,0.9679,,,,,,,,,,,,
+STS_029,known transform,PET->PET,rigid,15.9102,15.9695,18.0043,18.6861,0.4628,0.4549,0.5885,0.6552,8.7674,identity,False,Not converged,,0.991,,,,,,,,,,,,
+STS_030,known transform,PET->PET,rigid,15.3803,15.3562,18.899,21.0367,0.4558,0.4614,0.78,1.0115,15.5911,identity,False,Not converged,,0.9807,,,,,,,,,,,,
+STS_031,known transform,PET->PET,rigid,11.7137,11.7039,12.1382,12.3272,0.1636,0.1622,0.2885,0.367,9.5544,identity,False,Not converged,,0.9949,,,,,,,,,,,,
+STS_032,known transform,PET->PET,rigid,10.3767,10.4372,13.6674,15.0929,0.117,0.1141,0.1941,0.2273,9.2379,identity,False,Not converged,,0.996,,,,,,,,,,,,
+STS_033,known transform,PET->PET,rigid,23.1685,23.0958,26.9627,28.5345,1.9658,2.0042,3.1679,3.9751,7.8435,identity,False,Not converged | Large correction,,0.9644,,,,,,,,,,,,
+STS_034,known transform,PET->PET,rigid,10.736,10.2532,19.3419,24.0528,2.2746,2.295,3.9498,5.0027,9.1743,identity,False,Not converged,,0.9471,,,,,,,,,,,,
+STS_035,known transform,PET->PET,rigid,16.9621,16.862,19.165,20.0879,0.4232,0.3568,0.892,1.0695,4.0217,identity,False,Not converged,,0.9781,,,,,,,,,,,,
+STS_036,known transform,PET->PET,rigid,21.293,21.2214,25.3231,27.2869,0.1971,0.1973,0.2841,0.3281,10.7778,identity,False,Not converged | Large correction,,0.9939,,,,,,,,,,,,
+STS_037,known transform,PET->PET,rigid,15.5835,15.5036,19.2314,21.151,0.0535,0.0523,0.0894,0.1004,3.9913,identity,False,,,0.9981,,,,,,,,,,,,
+STS_038,known transform,PET->PET,rigid,7.3495,7.0942,11.6326,16.0087,3.2691,3.2118,5.8444,7.4111,7.2384,identity,False,Not converged,,0.9264,,,,,,,,,,,,
+STS_039,known transform,PET->PET,rigid,21.3853,20.9418,32.2833,36.6329,0.7907,0.7824,1.4049,1.7072,9.7627,identity,False,Not converged | Large correction,,0.9818,,,,,,,,,,,,
+STS_040,known transform,PET->PET,rigid,19.4006,19.5657,23.982,25.8914,1.2402,1.2227,2.1483,2.6789,11.0805,identity,False,Not converged,,0.9685,,,,,,,,,,,,
+STS_041,known transform,PET->PET,rigid,16.5351,16.5552,19.2531,19.503,0.4845,0.4857,0.5949,0.6533,4.1939,identity,False,Not converged,,0.9762,,,,,,,,,,,,
+STS_042,known transform,PET->PET,rigid,20.255,20.2526,22.3979,23.0711,1.3236,1.2643,2.4758,3.2427,3.2639,identity,False,Not converged | Large correction,,0.9167,,,,,,,,,,,,
+STS_043,known transform,PET->PET,rigid,9.2448,8.9622,13.5942,16.2922,0.2031,0.201,0.2447,0.2623,10.7069,identity,False,Not converged,,0.9933,,,,,,,,,,,,
+STS_044,known transform,PET->PET,rigid,16.2169,15.9451,26.1656,30.656,9.2138,9.205,16.0426,18.58,14.4785,identity,False,Not converged,,0.8365,,,,,,,,,,,,
+STS_045,known transform,PET->PET,rigid,15.9949,16.0544,20.6344,23.7013,0.1413,0.1381,0.2529,0.3442,24.3058,identity,False,Not converged,,0.9937,,,,,,,,,,,,
+STS_046,known transform,PET->PET,rigid,12.7339,12.5105,18.6181,21.6778,0.6508,0.6071,1.2405,1.49,26.9475,identity,False,Not converged,,0.9815,,,,,,,,,,,,
+STS_047,known transform,PET->PET,rigid,15.8942,15.9889,18.8582,20.0366,0.2165,0.221,0.3568,0.4265,10.7178,identity,False,Not converged,,0.991,,,,,,,,,,,,
+STS_048,known transform,PET->PET,rigid,10.7946,10.7235,14.9404,17.0314,0.0932,0.093,0.1142,0.1206,1.9798,identity,False,,,0.9975,,,,,,,,,,,,
+STS_049,known transform,PET->PET,rigid,18.0182,18.274,24.2837,27.7274,0.1278,0.1269,0.1515,0.1595,1.6818,identity,False,,,0.998,,,,,,,,,,,,
+STS_050,known transform,PET->PET,rigid,17.4502,17.3427,20.5566,21.7201,1.6419,1.5514,3.1023,3.7152,4.5163,identity,False,Not converged,,0.9531,,,,,,,,,,,,
+STS_051,known transform,PET->PET,rigid,18.1958,18.2082,20.9529,21.8836,0.71,0.7031,1.2737,1.5953,8.1235,identity,False,Not converged,,0.9814,,,,,,,,,,,,

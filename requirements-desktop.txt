@@ -1,0 +1,13 @@
+# Desktop workstation (rsw/): python -m rsw
+PySide6==6.12.0
+pyqtgraph==0.14.0
+numpy
+scipy
+pandas
+SimpleITK
+pydicom
+PyWavelets
+pykwalify
+# PyRadiomics from GitHub (the PyPI release is broken):  pip install --no-deps "pyradiomics @ git+https://github.com/AIM-Harvard/pyradiomics.git"
+# elastix engine for registration (Registration dialog -> Engine; lung profile); part of the Windows installer
+itk-elastix==0.25.4

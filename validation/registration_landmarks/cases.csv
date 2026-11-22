@@ -1,0 +1,25 @@
+patient,split,method,landmarks,seconds,tre_mean,tre_sd,tre_median,tre_p95,tre_max,pct_below_2mm,folding_fraction,kept_start,warnings
+bh,tuning,none,113,0.0,6.6784,3.6684,6.113,12.9136,14.2432,7.0796,,,
+bh,tuning,elastix lung bspline,113,168.7715,0.9706,0.7725,0.73,2.2241,6.2098,93.8053,0.0,False,
+bh,tuning,simpleitk rigid,113,156.3966,6.1128,3.5523,5.4648,12.2353,13.53,15.9292,,False,
+bh,tuning,simpleitk affine,113,264.4689,6.1128,3.5523,5.4648,12.2353,13.53,15.9292,,True,The optimisation ended with a worse match than the start (-0.9253 vs -0.9281); the start position is kept. Check the fusion; try another start (landmarks) or the hybrid option.
+bl,test,none,100,0.0,5.9048,2.719,5.9376,11.2146,14.034,4.0,,,
+bl,test,elastix lung bspline,100,99.2502,0.8713,0.4138,0.7935,1.6982,2.2495,98.0,0.0,False,
+bl,test,simpleitk rigid,100,78.4297,5.8129,2.7176,5.8679,10.9813,14.0177,5.0,,False,
+bl,test,simpleitk affine,100,155.9574,5.4625,2.5216,5.2563,10.5204,13.0655,6.0,,False,
+dx,test,none,100,0.0,7.6708,5.0294,5.9424,18.1123,24.5411,4.0,,,
+dx,test,elastix lung bspline,100,103.6758,1.04,1.1261,0.7264,2.345,7.9903,93.0,0.0,False,The deformation folds the image in 0.00 % of the voxels (Jacobian determinant <= 0). Do not use it for quantification.
+dx,test,simpleitk rigid,100,143.1275,7.415,5.0013,5.7038,17.7955,24.1975,4.0,,False,
+dx,test,simpleitk affine,100,258.4962,6.7763,4.7276,4.814,17.0429,22.7074,4.0,,False,
+gt,test,none,100,0.0,7.3326,4.8649,6.1312,16.0867,24.0542,6.0,,,
+gt,test,elastix lung bspline,100,78.5468,1.2686,2.1426,0.6758,3.5994,12.9746,90.0,0.0,False,
+gt,test,simpleitk rigid,100,97.4084,7.4239,4.9095,6.3168,16.1681,24.1932,7.0,,False,
+gt,test,simpleitk affine,100,206.8666,7.1946,4.7927,6.1235,15.6335,23.6891,8.0,,False,
+mm2,tuning,none,107,0.0,7.0908,5.0759,4.6766,16.8346,19.8191,5.6075,,,
+mm2,tuning,elastix lung bspline,107,101.487,1.0486,0.9119,0.8341,2.2231,6.7925,92.5234,0.0001,False,The deformation folds the image in 0.01 % of the voxels (Jacobian determinant <= 0). Do not use it for quantification.
+mm2,tuning,simpleitk rigid,107,125.9893,7.0048,5.0569,4.5341,16.7507,19.7236,5.6075,,False,
+mm2,tuning,simpleitk affine,107,222.4782,6.6327,4.753,4.2679,15.9699,18.7501,6.5421,,False,
+ng,test,none,100,0.0,14.0445,7.1682,12.5772,26.6087,32.3704,0.0,,,
+ng,test,elastix lung bspline,100,103.3206,1.8107,2.3922,1.1648,4.1908,15.148,77.0,0.0,False,The deformation folds the image in 0.00 % of the voxels (Jacobian determinant <= 0). Do not use it for quantification.
+ng,test,simpleitk rigid,100,167.8058,14.1449,7.1283,12.7023,26.603,32.3503,0.0,,False,
+ng,test,simpleitk affine,100,266.1209,13.9673,6.8162,12.4941,25.9975,31.5879,0.0,,False,

@@ -1,0 +1,15 @@
+dro,roi,roi_definition,slice,centre_yx,voxels,size,max,max_bounds,max_pass,min,min_bounds,min_pass,mean,mean_bounds,mean_pass,sd,sd_bounds,sd_pass,all_pass
+male 20130528,1,"circle, smallest hot sphere",40.0,"102,142",129.0,492 mm2,4.0,3.995-4.005,True,0.637,0.635-0.645,True,1.379,1.295-1.505,True,0.97,0.875-1.095,True,True
+male 20130528,2,"circle, largest hot sphere",40.0,"128,157",129.0,492 mm2,4.0,3.995-4.005,True,4.0,3.995-4.005,True,4.0,3.995-4.005,True,0.0,-0.005-0.005,True,True
+male 20130528,3,"circle, hot test voxel",40.0,"128,76",129.0,492 mm2,4.11,4.105-4.115,True,1.0,0.995-1.005,True,1.024,1.015-1.035,True,0.274,0.235-0.325,True,True
+male 20130528,4,"circle, cold test voxel",40.0,"128,180",129.0,492 mm2,1.0,0.995-1.005,True,-0.11,-0.115--0.105,True,0.991,0.985-0.995,True,0.098,0.085-0.115,True,True
+male 20130528,5,"circle, 2D test pattern",40.0,"155,86",129.0,492 mm2,0.9,0.895-0.905,True,0.1,0.095-0.105,True,0.528,0.465-0.535,True,0.401,0.395-0.405,True,True
+male 20130528,6,"sphere, 3D test pattern",40.0,"155,170",1037.0,7912 mm3,0.9,0.895-0.905,True,0.1,0.095-0.105,True,0.522,0.475-0.525,True,0.4,0.395-0.405,True,True
+male 20130528,SUVbw,"body background (expected 1.00), hot spheres (4.00)",,,,"weight 70.0 kg, 370.0 MBq, 60.0 min",3.9999969005584717,,,,,,0.9999365210533142,,,,,,
+female 20130529,1,"circle, smallest hot sphere",40.0,"102,142",129.0,492 mm2,4.0,3.995-4.005,True,0.637,0.635-0.645,True,1.379,1.295-1.505,True,0.97,0.875-1.095,True,True
+female 20130529,2,"circle, largest hot sphere",40.0,"128,157",129.0,492 mm2,4.0,3.995-4.005,True,4.0,3.995-4.005,True,4.0,3.995-4.005,True,0.0,-0.005-0.005,True,True
+female 20130529,3,"circle, hot test voxel",40.0,"128,76",129.0,492 mm2,4.11,4.105-4.115,True,1.0,0.995-1.005,True,1.024,1.015-1.035,True,0.274,0.235-0.325,True,True
+female 20130529,4,"circle, cold test voxel",40.0,"128,180",129.0,492 mm2,1.0,0.995-1.005,True,-0.11,-0.115--0.105,True,0.991,0.985-0.995,True,0.098,0.085-0.115,True,True
+female 20130529,5,"circle, 2D test pattern",40.0,"155,86",129.0,492 mm2,0.9,0.895-0.905,True,0.1,0.095-0.105,True,0.528,0.465-0.535,True,0.401,0.395-0.405,True,True
+female 20130529,6,"sphere, 3D test pattern",40.0,"155,170",1037.0,7912 mm3,0.9,0.895-0.905,True,0.1,0.095-0.105,True,0.522,0.475-0.525,True,0.4,0.395-0.405,True,True
+female 20130529,SUVbw,"body background (expected 1.00), hot spheres (4.00)",,,,"weight 59.94 kg, 370.0 MBq, 60.0 min",3.9999966621398926,,,,,,0.9999364614486694,,,,,,
