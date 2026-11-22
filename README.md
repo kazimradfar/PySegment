@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)
 ![Python](https://img.shields.io/badge/python-3.13-blue)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24449581.svg)](https://doi.org/10.5281/zenodo.24449581)
 
 ![PySegment main window and dialogs](manuscript/figures/figure1_gui.png)
 
@@ -152,6 +153,7 @@ repository:
              registration and radionuclide dosimetry},
   year    = {2026},
   version = {0.1.1},
+  doi     = {10.5281/zenodo.24449581},
   url     = {https://github.com/kazimradfar/PySegment},
   license = {MIT}
 }
