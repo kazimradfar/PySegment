@@ -143,7 +143,7 @@ rsw.spec        PyInstaller specification
 
 ## Citing PySegment
 
-A manuscript describing PySegment and its validation has been submitted. Until it is published, please cite this
+A manuscript describing PySegment and its validation has been submitted to the Journal of Imaging. Until it is published, please cite this
 repository:
 
 ```bibtex
