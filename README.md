@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)
 ![Python](https://img.shields.io/badge/python-3.13-blue)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24449581.svg)](https://doi.org/10.5281/zenodo.24449581)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24463598.svg)](https://doi.org/10.5281/zenodo.24463598)
 
 ![PySegment main window and dialogs](docs/images/pysegment_window.png)
 
@@ -152,7 +152,7 @@ A paper describing PySegment and its validation is in preparation. Until it is p
              registration and radionuclide dosimetry},
   year    = {2026},
   version = {0.1.2},
-  doi     = {10.5281/zenodo.24449581},
+  doi     = {10.5281/zenodo.24463598},
   url     = {https://github.com/kazimradfar/PySegment},
   license = {MIT}
 }
