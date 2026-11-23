@@ -1,7 +1,8 @@
 # Builds the desktop workstation PySegment (code in rsw/) for Windows, tests it with synthetic data only (unit tests, the
 # window driven like a user, the built program's self-test, install / start / uninstall) and publishes the
-# setup wizard as the GitHub release "pysegment-latest". When a release (e.g. v0.1.2) is published on GitHub, the
-# same build runs for its tag and the setup wizard is attached to that release.
+# setup wizard. Builds after a push are tests: the setup wizard is kept as a workflow artifact for 30 days. Only a
+# release published on GitHub (e.g. v0.1.2) gets the setup wizard attached, and only those releases are archived by
+# Zenodo.
 name: build-rsw
 
 on:
@@ -90,14 +91,10 @@ jobs:
         run: |
           $setup = (Get-ChildItem installer_out\*_Setup_v*.exe)[0].FullName
           gh release upload "${{ github.event.release.tag_name }}" $setup --clobber
-      - name: Publish release pysegment-latest
+      - name: Keep the setup wizard of this test build (no release, so Zenodo does not archive it)
         if: github.event_name != 'release'
-        shell: pwsh
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh release delete pysegment-latest --yes --cleanup-tag 2>$null
-          gh release delete rsw-latest --yes --cleanup-tag 2>$null   # old name of the same program
-          $setup = (Get-ChildItem installer_out\*_Setup_v*.exe)[0].FullName
-          $n = python -c "import rsw; print(rsw.APP_NAME)"
-          gh release create pysegment-latest $setup --target $env:GITHUB_SHA --prerelease --title "$n - latest build" --notes "Setup wizard for Windows 10/11 (64-bit, no administrator rights). Open source (MIT). Built from commit $env:GITHUB_SHA."
+        uses: actions/upload-artifact@v4
+        with:
+          name: PySegment-setup-test-build
+          path: installer_out/*_Setup_v*.exe
+          retention-days: 30

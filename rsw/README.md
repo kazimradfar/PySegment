@@ -46,7 +46,7 @@ pyinstaller rsw.spec                                   # dist/PySegment/PySegmen
 ```
 
 `.github/workflows/build-rsw.yml` builds and tests the program on Windows (tests, self-test of the built
-and of the installed program, uninstall) and publishes the setup wizard as release `pysegment-latest` (on every push to `main` that changes the program).
+and of the installed program, uninstall) on every push to `main` that changes the program, and attaches the setup wizard to every release published on GitHub (for example `v0.1.2`).
 
 ## Registration: status
 

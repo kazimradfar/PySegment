@@ -68,7 +68,7 @@ Each was corrected and is now covered by a regression test; the details are in [
 ## Installation
 
 **Windows installer (recommended).** Download `PySegment_Setup_v*.exe` from the
-[latest release](../../releases/tag/pysegment-latest) and run it. No administrator rights are needed; everything,
+[latest release](../../releases/latest) and run it. No administrator rights are needed; everything,
 including the elastix engine, is included. Every installer is built, installed and self-tested automatically before
 it is published.
 
