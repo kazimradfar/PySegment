@@ -1,0 +1,37 @@
+{
+  "title": "PySegment: open-source PET/CT and SPECT/CT workstation for segmentation, radiomics, registration and radionuclide dosimetry",
+  "upload_type": "software",
+  "description": "PySegment is an open-source, offline desktop workstation for quantitative PET/CT and SPECT/CT. It combines manual and semi-automatic segmentation, multi-reader studies, ROI measurements, IBSI-compliant radiomics, rigid, affine and deformable registration and radionuclide dosimetry in one program. Every module that produces a number is validated against public reference data (IBSI, QIBA, POPI, ICRP 107).",
+  "license": "MIT",
+  "keywords": [
+    "PET/CT",
+    "SPECT/CT",
+    "nuclear medicine",
+    "segmentation",
+    "radiomics",
+    "IBSI",
+    "image registration",
+    "dosimetry",
+    "theranostics"
+  ],
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Radfar, Kazim",
+      "affiliation": "Department of Medical Physics and Biomedical Engineering, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran",
+      "orcid": "0009-0000-8648-8622"
+    },
+    {
+      "name": "Vosoughi, Habibeh",
+      "affiliation": "Department of Medical Physics and Biomedical Engineering, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran"
+    },
+    {
+      "name": "Yazdani, Elmira",
+      "affiliation": "Department of Medical Physics and Biomedical Engineering, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran"
+    },
+    {
+      "name": "Ay, Mohammad Reza",
+      "affiliation": "Department of Medical Physics and Biomedical Engineering, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran"
+    }
+  ]
+}
