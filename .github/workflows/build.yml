@@ -1,10 +1,13 @@
 # Builds the desktop workstation PySegment (code in rsw/) for Windows, tests it with synthetic data only (unit tests, the
 # window driven like a user, the built program's self-test, install / start / uninstall) and publishes the
-# setup wizard as the GitHub release "pysegment-latest".
+# setup wizard as the GitHub release "pysegment-latest". When a release (e.g. v0.1.2) is published on GitHub, the
+# same build runs for its tag and the setup wizard is attached to that release.
 name: build-rsw
 
 on:
   workflow_dispatch:
+  release:
+    types: [published]
   push:
     branches: [main]
     paths: ["rsw/**", "rsw.spec", "installer/rsw.iss", "requirements-desktop.txt", "tests/test_rsw_*.py",
@@ -79,7 +82,16 @@ jobs:
           for f in sorted(glob.glob('rsw_shots/*.png')):
               im = Image.open(f).convert('RGB'); im.thumbnail((1400, 1400)); b = io.BytesIO(); im.save(b, 'JPEG', quality=70)
               e = base64.b64encode(b.getvalue()).decode(); print('SHOT-BEGIN', f.replace(chr(92), '/'), im.size); [print('B64 ' + e[i:i + 3000]) for i in range(0, len(e), 3000)]; print('SHOT-END')"
+      - name: Attach the setup wizard to the published release
+        if: github.event_name == 'release'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $setup = (Get-ChildItem installer_out\*_Setup_v*.exe)[0].FullName
+          gh release upload "${{ github.event.release.tag_name }}" $setup --clobber
       - name: Publish release pysegment-latest
+        if: github.event_name != 'release'
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}

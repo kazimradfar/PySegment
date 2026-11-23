@@ -151,7 +151,7 @@ A paper describing PySegment and its validation is in preparation. Until it is p
   title   = {PySegment: an open-source desktop workstation for PET/CT segmentation, radiomics,
              registration and radionuclide dosimetry},
   year    = {2026},
-  version = {0.1.1},
+  version = {0.1.2},
   doi     = {10.5281/zenodo.24449581},
   url     = {https://github.com/kazimradfar/PySegment},
   license = {MIT}

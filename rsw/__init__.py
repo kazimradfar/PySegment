@@ -9,7 +9,7 @@ The product name is defined only here (APP_NAME); everything else reads it from 
 """
 APP_NAME = "PySegment"
 APP_LONG_NAME = "Segmentation & Radiomics Workstation"
-APP_VERSION = "0.1.1"
+APP_VERSION = "0.1.2"
 AUTHOR = "Kazim Radfar"
 COPYRIGHT = "Copyright © 2026 Kazim Radfar. Released under the MIT licence."
 ORGANISATION = "PySegment"   # folder name for user settings and the license file

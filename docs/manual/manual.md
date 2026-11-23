@@ -1,6 +1,6 @@
 ---
 title: "PySegment User Manual"
-subtitle: "Version 0.1.1 — segmentation, radiomics, registration and radionuclide dosimetry for PET/CT and SPECT/CT"
+subtitle: "Version 0.1.2 — segmentation, radiomics, registration and radionuclide dosimetry for PET/CT and SPECT/CT"
 ---
 
 Kazim Radfar, Habibeh Vosoughi, Elmira Yazdani and Mohammad Reza Ay
@@ -27,7 +27,7 @@ Every module that produces a number has been validated against public reference 
 
 ## Windows installer (recommended)
 
-1. Open https://github.com/kazimradfar/PySegment/releases and download `PySegment_Setup_v0.1.1.exe` (about 160 MB).
+1. Open https://github.com/kazimradfar/PySegment/releases and download `PySegment_Setup_v0.1.2.exe` (about 160 MB).
 2. Run it. Administrator rights are not needed; the program is installed for the current user.
 3. Read and accept the MIT licence, choose the folder and finish. A shortcut *PySegment* appears in the Start menu.
 
