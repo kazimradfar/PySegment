@@ -52,7 +52,7 @@ class DosimetryDialog(QtWidgets.QDialog):
                                 "in the ROI tab; give target name and time first (boxes at the right)"),
                                ("Remove row", self.remove_row, "Removes the selected row"),
                                ("Load CSV", self.load_csv, "Columns: target, time_h, activity_MBq, volume_ml"),
-                               ("Save CSV", self.save_csv, "Saves the time points (needs an activated licence)")):
+                               ("Save CSV", self.save_csv, "Saves the time points as CSV")):
             b = QtWidgets.QPushButton(label)
             b.setToolTip(tip)
             b.clicked.connect(fn)
@@ -102,8 +102,8 @@ class DosimetryDialog(QtWidgets.QDialog):
                                       ("Density", self.density), ("Administered", self.admin), ("S-value", self.sval))):
             form.addWidget(QtWidgets.QLabel(lab), i // 2, 2 * (i % 2))
             form.addWidget(w, i // 2, 2 * (i % 2) + 1)
-        form.addWidget(self.zero, 5, 1)
-        form.addWidget(self.iso_note, 6, 0, 1, 4)
+        form.addWidget(self.zero, 6, 0, 1, 2)
+        form.addWidget(self.iso_note, 7, 0, 1, 4)
         lay.addLayout(form)
         run = QtWidgets.QPushButton("Calculate")
         run.clicked.connect(self.calculate)

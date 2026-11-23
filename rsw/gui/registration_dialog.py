@@ -1,5 +1,5 @@
 """Registration dialog: estimate a transform between two images of the open case, check it (checkerboard, numbers),
-accept or reject it, save it. Only PySide6 (LGPL) and SimpleITK; saving a transform needs a licence like every other
+accept or reject it, save it. Only PySide6 (LGPL) and SimpleITK; saving a transform works like every other
 save. The estimate never changes the native images; accepting only changes what the viewer shows and exports."""
 from __future__ import annotations
 
@@ -79,9 +79,9 @@ class RegistrationDialog(QtWidgets.QDialog):
         self.mode = QtWidgets.QComboBox()
         for label, v in MODES:
             self.mode.addItem(label, v)
-        self.metric = QtWidgets.QComboBox()
+        self.metric_box = QtWidgets.QComboBox()
         for label, v in METRICS:
-            self.metric.addItem(label, v)
+            self.metric_box.addItem(label, v)
         from rsw import registration_elastix as rx
         self.engine = QtWidgets.QComboBox()
         self.engine.addItem("SimpleITK (built in)", "simpleitk")
@@ -115,7 +115,7 @@ class RegistrationDialog(QtWidgets.QDialog):
         form.addRow("Engine", self.engine)
         form.addRow("Profile", self.profile)
         form.addRow("Transform", self.mode)
-        form.addRow("Similarity metric", self.metric)
+        form.addRow("Similarity metric", self.metric_box)
         form.addRow("Start", self.init)
         form.addRow("Resolution levels", self.levels)
         form.addRow("Iterations per level", self.iters)
@@ -355,7 +355,7 @@ class RegistrationDialog(QtWidgets.QDialog):
         if est.name == fixed.name:
             self.report.setPlainText("Fixed and moving image for the estimate are the same image.")
             return None
-        kw = dict(mode=self.mode.currentData(), metric=self.metric.currentData(), init=self.init.currentData(),
+        kw = dict(mode=self.mode.currentData(), metric=self.metric_box.currentData(), init=self.init.currentData(),
                   levels=self.levels.value(), iterations=self.iters.value())
         if self.engine.currentData() == "elastix":
             if kw["init"] == "landmarks":

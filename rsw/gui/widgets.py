@@ -1,4 +1,4 @@
-"""Small reusable pieces: pandas table model, background jobs, licence dialog."""
+"""Small reusable pieces: pandas table model, background jobs, about text."""
 from __future__ import annotations
 
 import traceback

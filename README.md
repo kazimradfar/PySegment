@@ -96,7 +96,7 @@ Python 3.13 is tested. A self-test of an installation: `python -m rsw --self-tes
 6. **Dosimetry** — *Tools → Dosimetry*: enter the activity of each scan (from the ROI details) and its time, choose the method.
 7. **Figures** — *Labels* tab for arrows and text; *File → Save window as image…* or **F12** in any window.
 
-Detailed manuals: [`rsw/README.md`](rsw/README.md) (English) and [`rsw/README_FA.md`](rsw/README_FA.md) (Persian).
+**User manual:** [`manuscript/manual/PySegment_User_Manual.docx`](manuscript/manual/PySegment_User_Manual.docx) (complete, with screenshots). Short references: [`rsw/README.md`](rsw/README.md) (English) and [`rsw/README_FA.md`](rsw/README_FA.md) (Persian).
 
 ## Reproducing the validation
 

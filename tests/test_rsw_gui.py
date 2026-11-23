@@ -295,3 +295,20 @@ def test_planar_whole_body_ant_post(app, tmp_path, monkeypatch):
 def QtWidgets_dialog():
     from PySide6 import QtWidgets
     return QtWidgets.QInputDialog
+
+
+def test_registration_dialog_can_be_saved_as_image(app, tmp_path, monkeypatch):
+    """The registration dialog had an attribute 'metric' that hid QPaintDevice.metric(), so drawing it into an image
+    (F12) failed with 'QComboBox object is not callable'."""
+    monkeypatch.setenv("APPDATA", str(tmp_path / "appdata"))
+    synthetic_case(tmp_path / "study" / "SYN001")
+    from PySide6 import QtGui
+    from rsw.gui.main_window import MainWindow
+    w = MainWindow()
+    w.open_folder(tmp_path / "study")
+    w.open_case("SYN001", ask=False)
+    dlg = w.open_registration()
+    out = tmp_path / "reg.png"
+    w.render_png(dlg, out)
+    assert QtGui.QImage(str(out)).width() == 3 * dlg.width()
+    dlg.close()
