@@ -1,13 +1,11 @@
 ---
 title: "PySegment User Manual"
 subtitle: "Version 0.1.2: segmentation, radiomics, registration and radionuclide dosimetry for PET/CT and SPECT/CT"
+author: 'Kazim Radfar, Habibeh Vosoughi, Elmira Yazdani and Mohammad Reza Ay`\\[6pt]\small`{=latex} Department of Medical Physics and Biomedical Engineering, School of Medicine,`\\\small`{=latex} Tehran University of Medical Sciences'
+date: "November 2026"
 ---
 
-Kazim Radfar, Habibeh Vosoughi, Elmira Yazdani and Mohammad Reza Ay
-
-Department of Medical Physics and Biomedical Engineering, School of Medicine, Tehran University of Medical Sciences
-
-Software: https://github.com/kazimradfar/PySegment 路 Archived version: https://doi.org/10.5281/zenodo.24449581 路 Licence: MIT
+Software: https://github.com/kazimradfar/PySegment 路 Archived version: https://doi.org/10.5281/zenodo.24463598 路 Licence: MIT
 
 > **Research use only.** PySegment is not a medical device. It must not be used for diagnosis, treatment planning or any other clinical decision. Every result should be checked by a qualified person.
 
@@ -21,7 +19,7 @@ The program was written for research in radioligand therapy (for example [鹿鈦封
 
 Every module that produces a number has been validated against public reference data (IBSI, QIBA digital reference objects, real PET/CT/MR studies with known transforms, the POPI 4D CT model, ICRP 107 and EANM S-values). The scripts and results are part of the repository (folder `validation`), and Section 15 summarises them.
 
-**How to cite.** Please cite the archived version, https://doi.org/10.5281/zenodo.24449581, and the accompanying article once it is published.
+**How to cite.** Please cite the archived version, https://doi.org/10.5281/zenodo.24463598, and the accompanying article once it is published.
 
 # Installation
 
