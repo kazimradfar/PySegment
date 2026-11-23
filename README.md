@@ -1,6 +1,6 @@
 # PySegment
 
-**An open-source desktop workstation for PET/CT segmentation, radiomics, image registration and radionuclide dosimetry — validated module by module against public reference data.**
+**An open-source desktop workstation for PET/CT segmentation, radiomics, image registration and radionuclide dosimetry, validated module by module against public reference data.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)
@@ -87,14 +87,14 @@ Python 3.13 is tested. A self-test of an installation: `python -m rsw --self-tes
 
 ## Quick start
 
-1. **Open data** — *File → Open DICOM folder…* (any folder with PET/CT, SPECT or MRI series), *File → Open images…*
+1. **Open data**: *File → Open DICOM folder…* (any folder with PET/CT, SPECT or MRI series), *File → Open images…*
    (NIfTI and others), or *File → Open project folder…* for a study with one sub-folder per patient.
-2. **Segment** — *Segment* tab: brush (P), polygon (L), region growing (G: click a lesion), thresholds, morphology.
-3. **Measure** — *ROI* tab: draw ROIs; with the Navigate tool, click inside one for its statistics and histogram.
-4. **Radiomics** — *Radiomics* tab: choose the processing option and settings, compute, export CSV.
-5. **Register** — *Registration → Register images…*: engine, mode, start; check the fusion; accept or reject.
-6. **Dosimetry** — *Tools → Dosimetry*: enter the activity of each scan (from the ROI details) and its time, choose the method.
-7. **Figures** — *Labels* tab for arrows and text; *File → Save window as image…* or **F12** in any window.
+2. **Segment**: *Segment* tab: brush (P), polygon (L), region growing (G: click a lesion), thresholds, morphology.
+3. **Measure**: *ROI* tab: draw ROIs; with the Navigate tool, click inside one for its statistics and histogram.
+4. **Radiomics**: *Radiomics* tab: choose the processing option and settings, compute, export CSV.
+5. **Register**: *Registration → Register images…*: engine, mode, start; check the fusion; accept or reject.
+6. **Dosimetry**: *Tools → Dosimetry*: enter the activity of each scan (from the ROI details) and its time, choose the method.
+7. **Figures**: *Labels* tab for arrows and text; *File → Save window as image…* or **F12** in any window.
 
 **User manual:** [`docs/manual/PySegment_User_Manual.docx`](docs/manual/PySegment_User_Manual.docx) (complete, with screenshots). Short references: [`rsw/README.md`](rsw/README.md) (English) and [`rsw/README_FA.md`](rsw/README_FA.md) (Persian).
 
@@ -138,8 +138,8 @@ rsw.spec        PyInstaller specification
   definitions), the program says so and offers the standard definition.
 - **Open files.** Masks are NIfTI on the PET grid, features CSV, settings and results JSON, so every result can be
   checked in other software.
-- **Validated, and re-validated.** Each module is compared with a public reference; the comparison is a script, not
-  a one-off.
+- **Repeatable validation.** Each module is compared with a public reference by a script that can be run again for
+  every new version.
 
 ## Citing PySegment
 
@@ -166,7 +166,7 @@ elastix / itk-elastix and PyRadiomics; see [`rsw/THIRD_PARTY_NOTICES.txt`](rsw/T
 
 Public reference data used for the validation were made available by the Image Biomarker Standardisation Initiative,
 the QIBA / University of Washington digital reference objects, CREATIS and the Léon Bérard Cancer Centre (POPI) and
-the contributors of the TCIA soft-tissue sarcoma collection. We thank them for sharing their work.
+the contributors of the TCIA soft-tissue sarcoma collection.
 
 **Author:** Kazim Radfar, Medical Physics, Tehran University of Medical Sciences.
 Questions and bug reports: please open an [issue](../../issues).

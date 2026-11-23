@@ -1,6 +1,6 @@
 ---
 title: "PySegment User Manual"
-subtitle: "Version 0.1.2 — segmentation, radiomics, registration and radionuclide dosimetry for PET/CT and SPECT/CT"
+subtitle: "Version 0.1.2: segmentation, radiomics, registration and radionuclide dosimetry for PET/CT and SPECT/CT"
 ---
 
 Kazim Radfar, Habibeh Vosoughi, Elmira Yazdani and Mohammad Reza Ay
@@ -70,7 +70,7 @@ Python 3.13 is tested. PyRadiomics is installed from GitHub because the release 
 The window has five parts:
 
 * **Menu bar:** File, Edit, View, Tools, Mask, Registration and Help.
-* **Workspace (left):** seven tabs — Project, Segment, ROI, Labels, Radiomics, Agreement and Display. The panel can be detached or moved.
+* **Workspace (left):** seven tabs: Project, Segment, ROI, Labels, Radiomics, Agreement and Display. The panel can be detached or moved.
 * **Viewer (centre):** axial, coronal and sagittal slices and the MIP. The layout can be changed in the Display tab (2 × 2, axial only, coronal only, axial + MIP).
 * **Log (bottom):** every action and result, with numbers (for example the threshold used by region growing).
 * **Status bar:** short messages and the licence notice.
