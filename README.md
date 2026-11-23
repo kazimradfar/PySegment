@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/python-3.13-blue)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24449581.svg)](https://doi.org/10.5281/zenodo.24449581)
 
-![PySegment main window and dialogs](manuscript/figures/figure1_gui.png)
+![PySegment main window and dialogs](docs/images/pysegment_window.png)
 
 Quantitative nuclear medicine usually needs several programs: one to view and segment, one to extract radiomic
 features, one to register follow-up scans and one to calculate absorbed doses. Every transfer between them is a chance
@@ -44,7 +44,7 @@ The scripts that do this are part of the repository, so the validation can be re
 
 ## Validation at a glance
 
-Public data only. Full methods, tables and every computed value: [`validation/`](validation/) and the manuscript in [`manuscript/`](manuscript/).
+Public data only. Full methods, tables and every computed value: [`validation/`](validation/).
 
 | Module | Reference | Result |
 |---|---|---|
@@ -63,7 +63,7 @@ Public data only. Full methods, tables and every computed value: [`validation/`]
 
 The validation also found **seven errors** in earlier versions (for example a missing Lu-177 photon energy, an
 unbounded bi-exponential fit, a region-growing leak at low contrast and an optimiser that stopped before converging).
-Each was corrected and is now covered by a regression test; the details are in the manuscript (Table 1).
+Each was corrected and is now covered by a regression test; the details are in [`validation/`](validation/).
 
 ## Installation
 
@@ -96,7 +96,7 @@ Python 3.13 is tested. A self-test of an installation: `python -m rsw --self-tes
 6. **Dosimetry** — *Tools → Dosimetry*: enter the activity of each scan (from the ROI details) and its time, choose the method.
 7. **Figures** — *Labels* tab for arrows and text; *File → Save window as image…* or **F12** in any window.
 
-**User manual:** [`manuscript/manual/PySegment_User_Manual.docx`](manuscript/manual/PySegment_User_Manual.docx) (complete, with screenshots). Short references: [`rsw/README.md`](rsw/README.md) (English) and [`rsw/README_FA.md`](rsw/README_FA.md) (Persian).
+**User manual:** [`docs/manual/PySegment_User_Manual.docx`](docs/manual/PySegment_User_Manual.docx) (complete, with screenshots). Short references: [`rsw/README.md`](rsw/README.md) (English) and [`rsw/README_FA.md`](rsw/README_FA.md) (Persian).
 
 ## Reproducing the validation
 
@@ -123,7 +123,7 @@ rsw/            program: computational modules (no user interface) and rsw/gui (
 tests/          automated tests, synthetic data only
 tools/          validation scripts
 validation/     validation plan, results and per-step READMEs
-manuscript/     manuscript, figures and the script that draws them
+docs/           user manual (Word, with screenshots) and images
 installer/      Inno Setup script for the Windows installer
 rsw.spec        PyInstaller specification
 ```
@@ -143,8 +143,7 @@ rsw.spec        PyInstaller specification
 
 ## Citing PySegment
 
-A manuscript describing PySegment and its validation has been submitted to the Journal of Imaging. Until it is published, please cite this
-repository:
+A paper describing PySegment and its validation is in preparation. Until it is published, please cite this repository:
 
 ```bibtex
 @software{radfar_pysegment,

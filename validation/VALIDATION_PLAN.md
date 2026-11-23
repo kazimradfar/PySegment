@@ -28,4 +28,4 @@ after the final evaluation.
 | 5 | Segmentation agreement | Dice, Jaccard, HD95 on shapes with analytic answers; ICC(2,1) against a reference implementation | done – `validation/agreement/` (identical to SimpleITK, MedPy, pingouin and Shrout & Fleiss) |
 | 6 | Performance | run times of the main steps on a standard laptop | to do |
 
-After step 6: manuscript draft (methods = this plan, results = the `validation/` READMEs), then the installer. Draft started: `manuscript/pysegment/` (EJNMMI Physics; registration values of 2a to be filled after the re-run).
+After step 6: write-up (methods = this plan, results = the `validation/` READMEs), then the installer.
